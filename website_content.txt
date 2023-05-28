@@ -1,0 +1,1394 @@
+
+
+
+
+
+
+Factorisation Methods - Crypto
+
+
+
+
+
+
+
+
+
+
+🖊🖊🖊🖊CryptoSearch⌃K🖊🖊🖊🖊CryptoSearch⌃KCryptoFundamentalsDivisi
+bility, Factors and Euclid's AlgorithmsModular
+ArithmeticRings, Fields and Euler's Totient FunctionFurther
+MathsContinued FractionsRSAOverviewPublic Exponent
+AttacksChoice of PrimesFactorisation MethodsPollard's
+p-1Diffie-Hellman Key ExchangeOverviewSolving the DLPPowered
+By GitBookFactorisation MethodsHere are the articles in this
+section:Pollard's p-1PreviousFermat
+FactorisationNextPollard's p-1Last modified 1yr agoCopy link
+
+
+
+
+
+
+
+
+
+
+Rings, Fields and Euler's Totient Function - Crypto
+
+
+
+
+
+
+
+
+
+
+
+🖊🖊🖊🖊CryptoSearch⌃K🖊🖊🖊🖊CryptoSearch⌃KCryptoFundamentalsDivisi
+bility, Factors and Euclid's AlgorithmsModular
+ArithmeticRings, Fields and Euler's Totient FunctionFurther
+MathsContinued FractionsRSAOverviewPublic Exponent
+AttacksChoice of PrimesFactorisation MethodsDiffie-Hellman
+Key ExchangeOverviewSolving the DLPPowered By GitBookRings,
+Fields and Euler's Totient FunctionThe basics of Rings,
+Fields and Euler's Phi FunctionRingsIn modular arithmetic we
+work modulo some modulus mmm, and we can think of the
+numbers we are able to use this way as a group of
+numbers:Z/mZ={0,1,2,...,m−1}\mathbb{Z}/m\mathbb{Z} =
+\{0,1,2,...,m-1\}Z/mZ={0,1,2,...,m−1}​This ring
+Z/mZ\mathbb{Z}/m\mathbb{Z}Z/mZ is the ring of integers
+modulo m. We are able to add and multiply elements of this
+ring, then divide by mmm and take the remainder to obtain an
+element in Z/mZ\mathbb{Z}/m\mathbb{Z}Z/mZ. There are general
+rules which define this as a ring, including the need for
+associative addition and multiplication.Units of a RingAs we
+discussed, a∈Z/mZa \in \mathbb{Z}/m\mathbb{Z}a∈Z/mZ has a
+modular multiplicative inverse if
+gcd(a,m)=1gcd(a,m)=1gcd(a,m)=1. The set of all numbers with
+modular inverses are denoted as
+(Z/mZ)∗(\mathbb{Z}/m\mathbb{Z})^*(Z/mZ)∗ - this is called
+the group of units modulo mmm. Number which have inverses
+are called units. For
+example:(Z/12Z)∗={1,5,7,11}(\mathbb{Z}/12\mathbb{Z})^* =
+\{1,5,7,11\}(Z/12Z)∗={1,5,7,11}You can think of the group of
+units modulo 121212 as essentially a set containing all
+numbers less than 121212 which are coprime with it.FieldsIf
+every number in Z/mZ\mathbb{Z}/m\mathbb{Z}Z/mZ has a modular
+inverse, it is promoted from a ring to a field (a field is a
+ring in which division is possible). Note that the only
+values of mmm where this are possible are values which are
+prime, which is why these fields are usually denoted
+Fp\mathbb{F}_pFp​. A finite field (also called a Galois
+field) is a field with a finite number of elements, such as
+those used in modular arithmetic. As a result, the term
+finite field will come up quite often to describe
+Fp\mathbb{F}_pFp​.Relevant Sets of Numbers​Z\mathbb{Z}Z
+denotes the ring of integers - note it is not a field, as
+there are no fractions to provide inverses. Euler's Totient
+FunctionEuler's totient function returns the number of
+elements in the group of units modulo mmm. Mathematically,
+this means:ϕ(m)=#(Z/mZ)∗=#{0≤a<m:gcd(a,m)=1}\phi(m) =
+\#(\mathbb{Z}/m\mathbb{Z})^* = \#\{0 \leq a < m : gcd(a,m) =
+1\}ϕ(m)=#(Z/mZ)∗=#{0≤a<m:gcd(a,m)=1}​This function has a
+huge array of applications and further rules which allow us
+to do some pretty awesome things, and is a key piece of the
+RSA cryptosystem.Totient RulesIf
+gcd(p,q)=1gcd(p,q)=1gcd(p,q)=1 then ϕ(pq)=ϕ(p)ϕ(q)\phi(pq)=\
+phi(p)\phi(q)ϕ(pq)=ϕ(p)ϕ(q).Computing the Euler TotientIf we
+say that the prime factorisation of nnn is
+n=p1e1⋅p2e2⋅...⋅pkekn=p_1^{e_1} \cdot p_2^{e_2} \cdot ...
+\cdot p_k^{e_k} n=p1e1​​⋅p2e2​​⋅...⋅pkek​​
+thenϕ(n)=n∏p∣n(1−1p)\phi(n) = n \prod_{p \mid n}
+(1-\frac{1}{p})ϕ(n)=np∣n∏​(1−p1​)Note that if ppp is prime,
+ϕ(p)=p−1\phi (p) = p-1ϕ(p)=p−1.ProofTODOEuler's
+FormulaEuler's Formula states that if
+gcd(a,p)=1gcd(a,p)=1gcd(a,p)=1 then​aϕ(n)≡1mod  na^{\phi(n)}
+\equiv 1 \mod naϕ(n)≡1modnThis is perhaps the most important
+formula for the RSA cryptosystem, which we will get to
+soon.​ Note that this actually tells us a little more in the
+case modulo a prime ppp, a case named after Fermat.Fermat's
+Little TheoremSince ϕ(p)=p−1\phi(p)=p-1ϕ(p)=p−1​, Fermat's
+Little Theorem states that:ap−1≡1mod  pa^{p-1} \equiv 1 \mod
+pap−1≡1modpThis was stated by Fermat over 100 years before
+Euler's Formula. You may note that this also gives us a
+quick way to compute the modular multiplicative inverse of
+aaa in Fp\mathbb{F}_pFp​:ap−1≡1mod  pap−1⋅a−1≡1⋅a−1mod  pap−
+2≡a−1mod  pa^{p-1} \equiv 1 \mod p \\
+a^{p-1} \cdot a^{-1} \equiv 1 \cdot a^{-1} \mod p \\
+a^{p-2} \equiv a^{-1} \mod p
+ap−1≡1modpap−1⋅a−1≡1⋅a−1modpap−2≡a−1modp​Fundamentals -
+PreviousModular ArithmeticNext - Further MathsContinued
+FractionsLast modified 5mo agoCopy linkOn this
+pageRingsUnits of a RingFieldsRelevant Sets of
+NumbersEuler's Totient FunctionTotient RulesComputing the
+Euler TotientEuler's FormulaFermat's Little Theorem
+
+
+
+
+
+
+
+
+
+
+Mersenne Primes - Crypto
+
+
+
+
+
+
+
+
+
+
+
+
+🖊🖊🖊🖊CryptoSearch⌃K🖊🖊🖊🖊CryptoSearch⌃KCryptoFundamentalsDivisi
+bility, Factors and Euclid's AlgorithmsModular
+ArithmeticRings, Fields and Euler's Totient FunctionFurther
+MathsContinued FractionsRSAOverviewPublic Exponent
+AttacksChoice of PrimesN is primeMersenne PrimesP=QFermat
+FactorisationFactorisation MethodsDiffie-Hellman Key
+ExchangeOverviewSolving the DLPPowered By GitBookMersenne
+Primes​Mersenne Primes take the form p=2k−1p = 2^k -
+1p=2k−1. Often we just loop through all possible Mersenne
+primes and check if either ppp or qqq are that.This is very
+easy to do in Sage:from sage.combinat.sloane_functions
+import A000668​mersenne = A000668()Then we can grab the
+nnnth Mersenne prime using mersenne(n).PreviousN is
+primeNextP=QLast modified 1yr agoCopy link
+
+
+
+
+
+
+
+
+
+
+Multi-party RSA with Small e - Crypto
+
+
+
+
+
+
+
+
+
+
+
+🖊🖊🖊🖊CryptoSearch⌃K🖊🖊🖊🖊CryptoSearch⌃KCryptoFundamentalsDivisi
+bility, Factors and Euclid's AlgorithmsModular
+ArithmeticRings, Fields and Euler's Totient FunctionFurther
+MathsContinued FractionsRSAOverviewPublic Exponent
+Attackse=1Small eMulti-party RSA with Small eWiener's
+AttackChoice of PrimesFactorisation MethodsDiffie-Hellman
+Key ExchangeOverviewSolving the DLPPowered By GitBookMulti-
+party RSA with Small eAssuming eee is constant between the
+messages and the message mmm is sent to at least eee people,
+we can use the Chinese Remainder Theorem to retrieve mmm.In
+single-party RSA, we calculate c=memod  Nc = m^e \mod
+Nc=memodN. Let's pretend this is extrapolated to 3
+people:me=c1mod  N1me=c2mod  N2me=c3mod  N3m^e = c_1 \mod
+N_1 \\
+m^e = c_2 \mod N_2 \\ m^e = c_3 \mod N_3
+\\me=c1​modN1​me=c2​modN2​me=c3​modN3​​The Chinese Remainder
+Theorem allows us to solve this congruence mod  N1N2N3\mod
+N_1N_2N_3modN1​N2​N3​. Since m<min⁡N1,N2,N3m < \min{N_1,
+N_2, N_3}m<minN1​,N2​,N3​, we know that me<N1N2N3m^e <
+N_1N_2N_3me<N1​N2​N3​. Once we use the Chinese Remainder
+Theorem to compute memod  N1N2N3m^e \mod
+N_1N_2N_3memodN1​N2​N3​, we just take the eeeth root to
+retrieve mmm.​PreviousSmall eNextWiener's AttackLast
+modified 1yr agoCopy link
+
+
+
+
+
+
+
+
+
+
+Public Exponent Attacks - Crypto
+
+
+
+
+
+
+
+
+
+
+
+🖊🖊🖊🖊CryptoSearch⌃K🖊🖊🖊🖊CryptoSearch⌃KCryptoFundamentalsDivisi
+bility, Factors and Euclid's AlgorithmsModular
+ArithmeticRings, Fields and Euler's Totient FunctionFurther
+MathsContinued FractionsRSAOverviewPublic Exponent
+Attackse=1Small eMulti-party RSA with Small eWiener's
+AttackChoice of PrimesFactorisation MethodsDiffie-Hellman
+Key ExchangeOverviewSolving the DLPPowered By GitBookPublic
+Exponent AttacksThese attacks exploit a poorly-chosen public
+exponent eee.RSA - PreviousOverviewNexte=1Last modified 1yr
+agoCopy link
+
+
+
+
+
+
+
+
+
+
+P=Q - Crypto
+
+
+
+
+
+
+
+
+
+
+
+🖊🖊🖊🖊CryptoSearch⌃K🖊🖊🖊🖊CryptoSearch⌃KCryptoFundamentalsDivisi
+bility, Factors and Euclid's AlgorithmsModular
+ArithmeticRings, Fields and Euler's Totient FunctionFurther
+MathsContinued FractionsRSAOverviewPublic Exponent
+AttacksChoice of PrimesN is primeMersenne PrimesP=QFermat
+FactorisationFactorisation MethodsDiffie-Hellman Key
+ExchangeOverviewSolving the DLPPowered By GitBookP=QIf p=qp
+= qp=q then N=pq=p2N = pq = p^2N=pq=p2 and you can use
+function such as isqrt in Python to retrieve ppp.Note that
+in the situation N=p2N=p^2N=p2, ϕ(N)≠(p−1)2\phi(N) \neq
+(p-1)^2ϕ(N)=(p−1)2 due to the full definition of Euler's
+totient function:ϕ(n)=n∏p∣n(1−1p)\phi(n) = n \prod_{p|n}
+(1-\frac{1}{p})ϕ(n)=np∣n∏​(1−p1​)The key here is that p∣np
+\mid np∣n are distinct prime factors, so we would only use
+ppp once in the equation:ϕ(n)=n(1−1p)=n−p\phi(n) =
+n(1-\frac{1}{p}) = n - pϕ(n)=n(1−p1​)=n−pPreviousMersenne
+PrimesNextFermat FactorisationLast modified 1yr agoCopy link
+
+
+
+
+
+
+
+
+
+
+Small e - Crypto
+
+
+
+
+
+
+
+
+
+
+
+
+🖊🖊🖊🖊CryptoSearch⌃K🖊🖊🖊🖊CryptoSearch⌃KCryptoFundamentalsDivisi
+bility, Factors and Euclid's AlgorithmsModular
+ArithmeticRings, Fields and Euler's Totient FunctionFurther
+MathsContinued FractionsRSAOverviewPublic Exponent
+Attackse=1Small eMulti-party RSA with Small eWiener's
+AttackChoice of PrimesFactorisation MethodsDiffie-Hellman
+Key ExchangeOverviewSolving the DLPPowered By GitBookSmall
+eIf eee is sufficiently small, the exponent is ineffective
+at encrypting mmm.Let's say me<Nm^e<Nme<N; in this case, we
+can simply take the eeeth root of ccc. For example, if
+e=3e=3e=3, then we can calculate m=c3m = \sqrt[3]cm=3c​.If
+me>Nm^e > Nme>N then this is a bit more secure, but we can
+progressively add more multiples of NNN until the cube root
+gives us a valid answer:m=c+kn3m = \sqrt[3]{c +
+kn}m=3c+kn​PythonIn Python we can use the gmpy3 iroot
+function:from gmpy2 import iroot​m = iroot(ct,
+e)Previouse=1NextMulti-party RSA with Small eLast modified
+1yr agoCopy link
+
+
+
+
+
+
+
+
+
+
+Pollard's p-1 - Crypto
+
+
+
+
+
+
+
+
+
+
+
+
+🖊🖊🖊🖊CryptoSearch⌃K🖊🖊🖊🖊CryptoSearch⌃KCryptoFundamentalsDivisi
+bility, Factors and Euclid's AlgorithmsModular
+ArithmeticRings, Fields and Euler's Totient FunctionFurther
+MathsContinued FractionsRSAOverviewPublic Exponent
+AttacksChoice of PrimesFactorisation MethodsPollard's
+p-1Diffie-Hellman Key ExchangeOverviewSolving the DLPPowered
+By GitBookPollard's p-1Factorising N when we know a factor
+is smoothIf we say that N=pqN=pqN=pq, where p,qp,qp,q are
+prime, then we can also say that for any
+a,ka,ka,k:ak(p−1)≡1mod  pa^{k(p-1)} \equiv 1 \mod
+pak(p−1)≡1modpDue to Fermat's Little Theorem. This would
+mean ak(p−1)−1a^{k(p-1)} - 1ak(p−1)−1 is a factor of ppp and
+therefore NNN.OverviewLet us say that
+L=k(p−1)L=k(p-1)L=k(p−1). If aL≡1mod  pa^L \equiv 1 \mod
+paL≡1modp, then p∣aL−1p \mid a^L-1p∣aL−1. Since p∣Np \mid
+Np∣N, we know that p∣gcd(aL−1,N)p \mid gcd(a^L-1,
+N)p∣gcd(aL−1,N).This may seem all well and good, but how
+does this help us? We don't know ppp, nor do we have a way
+of calculating kkk.What we actually do here is guess the
+value of LLL by (effectively) brute force. Essentially we
+put aaa to the power of integers with a huge number of prime
+factors, so it's all the more likely that the factors of
+p−1p-1p−1 are there. Once we put it to the powers, we can
+calculate the gcd(aL−1,N)gcd(a^L-1, N)gcd(aL−1,N) and if it
+is not equal to 000 then we have factorised NNN
+successfully.The most common technique is to calculate
+ak!mod  Na^{k!} \mod Nak!modN and then calculate the GCD
+from there. We can make this into a more efficient approach
+by repeatedly putting it to the power of one greater than
+the previous iteration, e.g. calculate a,a2,(a2)3,((a2)3)4,.
+..a,a^2,(a^2)^3,((a^2)^3)^4,...a,a2,(a2)3,((a2)3)4,... and
+calculate the GCD each time - this way, we will have a
+wealth of factors. A common choice of aaa is
+222.ExampleLet's try and factorise 713713713 using Pollard's
+p−1p-
+1p−1:21≡2mod  713,  gcd(1,713)==122≡4mod  713,  gcd(3,713)==
+143≡64mod  713,  gcd(63,713)==1644≡326mod  713,  gcd(325,713
+)==13265≡311mod  713,  gcd(310,713)==312 ^ 1 \equiv 2 \mod
+713, \,\, gcd(1, 713) == 1 \\
+2 ^ 2 \equiv 4 \mod 713, \,\, gcd(3, 713) == 1 \\
+4 ^ 3 \equiv 64 \mod 713, \,\, gcd(63, 713) == 1 \\
+64 ^ 4 \equiv 326 \mod 713, \,\, gcd(325, 713) == 1 \\
+326 ^ 5 \equiv 311 \mod 713, \,\, gcd(310, 713) == 3121≡2mod
+713,gcd(1,713)==122≡4mod713,gcd(3,713)==143≡64mod713,gcd(63,
+713)==1644≡326mod713,gcd(325,713)==13265≡311mod713,gcd(310,7
+13)==31We get to 25!mod  7132^{5!} \mod 71325!mod713, and
+find that gcd(310,713)=31gcd(310, 713)=31gcd(310,713)=31​.
+We have successfully factorised NNN!ApplicationsThis
+algorithm is useful when we know ppp is smooth, meaning it
+has lots of small prime factors. If this is the case, the
+iterative approach is more likely to include p−1p-1p−1
+sooner rather than later. This leads to the concept of safe
+primes, primes in the form p=2q+1p=2q+1p=2q+1 where qqq is
+also a prime (called a Sophie Germain prime). In this case,
+p−1p-1p−1 is not smooth.Sage CodeWe can implement this
+algorithm really easily in Sage:def pollards(n,
+iterations=50):    R = IntegerModRing(n)    cur = R(2)  for
+i in range(2, iterations): print(f'{cur} ^ {i} = {cur**i}')
+cur **= i        tst = gcd(cur-1, n)  print(f'gcd({cur-1},
+{n}) = {tst}')  if tst != 1: return tst else: return NoneYou
+can remove the print() functions as they are completely
+unneccessary, but the logging may help visualise what it
+does.RSA - PreviousFactorisation MethodsNext - Diffie-
+Hellman Key ExchangeOverviewLast modified 1yr agoCopy linkOn
+this pageOverviewExampleApplicationsSage Code
+
+
+
+
+
+
+
+
+
+
+Wiener's Attack - Crypto
+
+
+
+
+
+
+
+
+
+
+
+🖊🖊🖊🖊CryptoSearch⌃K🖊🖊🖊🖊CryptoSearch⌃KCryptoFundamentalsDivisi
+bility, Factors and Euclid's AlgorithmsModular
+ArithmeticRings, Fields and Euler's Totient FunctionFurther
+MathsContinued FractionsRSAOverviewPublic Exponent
+Attackse=1Small eMulti-party RSA with Small eWiener's
+AttackChoice of PrimesFactorisation MethodsDiffie-Hellman
+Key ExchangeOverviewSolving the DLPPowered By
+GitBookWiener's AttackUsing Continued Fractions to attack
+large e valuesOverviewWiener's Attack utilises the
+convergents of the continued fraction expansion of
+kd\frac{k}{d}dk​ to attempt to guess the decryption exponent
+ddd when eee is large, as ddd is necessarily small as a
+result.IntroductionWe can say
+thatϕ(N)=(p−1)(q−1)=pq−(p+q)+1≈N\phi(N) = (p-1)(q-1) \\
+= pq - (p + q) + 1 \\
+\approx Nϕ(N)=(p−1)(q−1)=pq−(p+q)+1≈N​We can also say that
+since ed≡1mod  ϕ(N)ed \equiv 1 \mod \phi(N)ed≡1modϕ(N)​, we
+can rearrange this to say that ed=kϕ(N)+1ed = k\phi(N) +
+1ed=kϕ(N)+1.d=kϕ(N)+1ed−kϕ(N)=1eϕ(N)−kd=1dϕ(N)d = k\phi(N) +
+1 \\
+ed - k\phi(N) = 1 \\
+\frac{e}{\phi(N)} - \frac{k}{d} =
+\frac{1}{d\phi(N)}d=kϕ(N)+1ed−kϕ(N)=1ϕ(N)e​−dk​=dϕ(N)1​Now
+since dϕ(N)d\phi(N)dϕ(N) is likely to be huge, we can say
+1dϕ(N)\frac{1}{d\phi(N)}dϕ(N)1​ is almost zero, and also use
+the approximation from before to say thateN≈kd\frac{e}{N}
+\approx \frac{k}{d}Ne​≈dk​Note that eN\frac{e}{N}Ne​ is
+composed of entirely public information, meaning we have
+access to an approximation to kd\frac{k}{d}dk​, which is
+entirely private information.Determining the Private
+InformationWe can represent eN\frac{e}{N}Ne​ as a continued
+fraction. If we go through the convergents of this fraction,
+we may come across kd\frac{k}{d}dk​ since eN≈kd\frac{e}{N}
+\approx \frac{k}{d}Ne​≈dk​ (kd\frac{k}{d}dk​ is a good
+approximation). This is more likely to work whendis smaller
+due to Legendre’s Theorem in Diophantine Approximations
+(TODO prove this), specifically when
+d<13N14d<\frac{1}{3}N^\frac{1}{4}d<31​N41​.Once we list the
+convergents, we iterate through and there are a few checks
+we can make to determine whether or not it's the correct
+convergent:As ed≡1mod  ϕ(N)ed \equiv 1 \mod
+\phi(N)ed≡1modϕ(N) and ϕ(N)\phi(N)ϕ(N) is even, ddd must be
+odd, so we can discard convergences with even
+denominators.Since ϕ(N)\phi(N)ϕ(N) must be a whole number,
+we can compute ed−1k\frac{ed - 1}{k}ked−1​ and see if it
+returns an integer or not - if not, we can discard the
+convergent.Once we find a convergent we don't discard, we
+can assume it's ϕ(N)\phi(N)ϕ(N) and attempt to calculate ddd
+with that, seeing if the resultant private key yields a
+valid result or not. This can take a lot of decryption
+attempts to work successfully however - we can speed up the
+"checking" process using a quadratic equation.Solving for p,
+qIf we say N=pqN=pqN=pq, it follows
+that:ϕ(N)=(p−1)(q−1)ϕ(N)=N−(p+q)+1p+q=N−ϕ(N)+1\phi(N) =
+(p-1)(q-1) \\
+\phi(N) = N - (p + q) + 1 \\
+p + q = N - \phi(N) +
+1ϕ(N)=(p−1)(q−1)ϕ(N)=N−(p+q)+1p+q=N−ϕ(N)+1If we now consider
+a quadratic equation (x−p)(x−q)=0(x-p)(x-q) = 0(x−p)(x−q)=0,
+with the roots ppp and qqq being the prime factors of NNN,
+we can expand this and substitute:(x−p)(x−q)=0x2−(p+q)x+pq=0
+x2−(N−ϕ(N)+1)x+N=0(x-p)(x-q) = 0 \\
+x^2 - (p+q)x + pq = 0 \\
+x^2 - (N - \phi(N) + 1)x + N =
+0(x−p)(x−q)=0x2−(p+q)x+pq=0x2−(N−ϕ(N)+1)x+N=0If our value of
+ϕ(N)\phi(N)ϕ(N) is correct, we can substitute this into the
+equation and solve it for two integer values ppp and qqq. If
+the values are not integer, the result can be
+discarded.PreviousMulti-party RSA with Small eNext -
+RSAChoice of PrimesLast modified 1yr agoCopy linkOn this
+pageOverviewIntroductionDetermining the Private
+InformationSolving for p, q
+
+
+
+
+
+
+
+
+
+
+Modular Arithmetic - Crypto
+
+
+
+
+
+
+
+
+
+
+
+🖊🖊🖊🖊CryptoSearch⌃K🖊🖊🖊🖊CryptoSearch⌃KCryptoFundamentalsDivisi
+bility, Factors and Euclid's AlgorithmsModular
+ArithmeticRings, Fields and Euler's Totient FunctionFurther
+MathsContinued FractionsRSAOverviewPublic Exponent
+AttacksChoice of PrimesFactorisation MethodsDiffie-Hellman
+Key ExchangeOverviewSolving the DLPPowered By GitBookModular
+ArithmeticAn introduction to the fundamentalsThe
+BasicsModular Arithmetic is an incredibly important aspect
+of practically all asymmetric cryptography. A common way to
+refer to it is as clock arithmetic - imagine it's eleven
+o'clock right now. Three hours later it'll be two o'clock,
+right? Well we do the same thing in modular
+arithmetic:11+3=14≡2mod  1211 + 3 = 14 \equiv 2 \mod
+1211+3=14≡2mod12​Essentially we take the sum of 111111 and
+333 and then divide by 121212 and keep the remainder. Here,
+the 121212 is called the modulus. The triple equals ≡\equiv≡
+denotes a congruence, and we say 141414 is congruent to 222
+mod  12\mod 12mod12.We can think of this another way and say
+that two numbers aaa and bbb are congruent modulo mmm if
+their difference a−ba-ba−b is divisible by mmm. For example,
+262626 and 222 are congruent modulo 121212 because
+26−2=2426-2=2426−2=24 which is divisible by 121212.Modular
+(Multiplicative) InversesIn normal maths, every number has
+an inverse - another number that, when multiplied with them,
+equals 111. In maths terms, we would say that for every
+number aaa there is another bbb where ab=1ab=1ab=1.
+Generally, we can say that b=1ab=\frac{1}{a}b=a1​ as that
+fits the equation - the inverse of 777, for example, is
+17\frac{1}{7}71​.In modular arithmetic, there are no
+fractions. Instead of finding bbb such that ab=1ab=1ab=1, we
+instead find bbb such that ab≡1mod  mab \equiv 1 \mod
+mab≡1modm. This means that for different values of mmm there
+are different inverses for aaa. For example, the inverse of
+3mod  53 \mod 53mod5 is 222, because 3⋅2=6≡1mod  53 \cdot 2
+= 6 \equiv 1 \mod 53⋅2=6≡1mod5. This inverse is called the
+modular multiplicative inverse. We can therefore say that
+3−1≡2mod  53^{-1} \equiv 2 \mod 53−1≡2mod5.Yet not every
+number aaa has an inverse modulo mmm - for example, 222 has
+no inverse modulo 666. Why? This is because
+gcd(a,m)=1gcd(a,m)=1gcd(a,m)=1. Let's prove this in the
+general case and see why that is.Proof Assume there is bbb
+such that a⋅b≡1mod  ma \cdot b \equiv 1 \mod ma⋅b≡1modm.
+This would mean that there also exists ccc such that
+ab=cm+1ab = cm + 1ab=cm+1 and therefore ab−cm=1ab - cm =
+1ab−cm=1. It follows therefore that both sides must be
+divisible by gcd(a,m)gcd(a,m)gcd(a,m), meaning
+gcd(a,m)=1gcd(a,m)=1gcd(a,m)=1.As a result, if there is an
+inverse of aaa modulo mmm, such an inverse can only exist if
+gcd(a,m)=1gcd(a,m)=1gcd(a,m)=1 □\square□​An Intuitive
+ApproachIf you're struggling to visualise this proof, think
+back to the previous example of 222 having no inverse modulo
+666. Why is this? Well, regardless of how much you multiply
+222 with, the sequence will go 0,2,4,0,2,4,...0, 2, 4, 0, 2,
+4, ...0,2,4,0,2,4,... and loop around because it is a factor
+of 6.Actually, the fact that a number it is not coprime with
+the modulus shows that it can never have an inverse. Again,
+why? Think about it this way: if they have a common factor,
+the remainder when one is divided by the other will also
+have that factor - and therefore not be 111. If we choose
+444 rather than 222, we can see this - if there is a common
+factor (as there is of 222 in this case) there is no value
+xxx for which 4x4x4x will return 111 modulo 666. Any number
+you can multiply 444 by will always give a remainder
+divisible by 222 when divided by 6.I suggest you spend some
+time reflecting on this fact, as it is a very important
+result.UsesThe uses of modular multiplicative inverses are
+similar to those of regular inverses - as division.
+Normally, if we divide two numbers, we can treat the number
+being divided by as multiplying by its
+inverse.8÷2=8⋅2−1=8⋅12=48 \div 2 = 8 \cdot 2^{-1} = 8 \cdot
+\frac{1}{2} = 48÷2=8⋅2−1=8⋅21​=4​We can use the modular
+multiplicative inverse the same way - say we want to divide
+333 by 222, modulo 777:3÷2≡3⋅2−1≡3⋅4≡12≡5mod  73 \div 2
+\equiv 3 \cdot 2^{-1} \equiv 3 \cdot 4 \equiv 12 \equiv 5
+\mod 7 \\
+3÷2≡3⋅2−1≡3⋅4≡12≡5mod7Note that 444 is the inverse of 222 as
+2⋅4≡1mod  72 \cdot 4 \equiv 1 \mod 72⋅4≡1mod7.And just like
+that we realise that dividing 333 by 222 modulo 777 gives us
+555.Fundamentals - PreviousDivisibility, Factors and
+Euclid's AlgorithmsNext - FundamentalsRings, Fields and
+Euler's Totient FunctionLast modified 6mo agoCopy linkOn
+this pageThe BasicsModular (Multiplicative) InversesProof An
+Intuitive ApproachUses
+
+
+
+
+
+
+
+
+
+
+Divisibility, Factors and Euclid's Algorithms - Crypto
+
+
+
+
+
+
+
+
+
+
+
+🖊🖊🖊🖊CryptoSearch⌃K🖊🖊🖊🖊CryptoSearch⌃KCryptoFundamentalsDivisi
+bility, Factors and Euclid's AlgorithmsModular
+ArithmeticRings, Fields and Euler's Totient FunctionFurther
+MathsContinued FractionsRSAOverviewPublic Exponent
+AttacksChoice of PrimesFactorisation MethodsDiffie-Hellman
+Key ExchangeOverviewSolving the DLPPowered By
+GitBookDivisibility, Factors and Euclid's AlgorithmsAn
+outline of the fundamentals of number theoryCryptography is
+built on the foundations of algebra and number theory, which
+we will hopefully cover well enough here.Divisibility​aaa is
+said to be divisible by bbb if there is another integer ccc
+such that a=bca=bca=bc. In this case, bbb is said to be a
+factor of aaa. This is denoted by a∣ba \mid ba∣b if aaa
+divides bbb, and a∤ba \nmid ba∤b if it does not.Greatest
+Common DivisorGiven two integers aaa and bbb, the greatest
+common divisor gcd(a,b)gcd(a,b)gcd(a,b) (also known as the
+highest common factor) is the largest integer ppp where p∣ap
+\mid ap∣a and p∣bp \mid bp∣b.Euclidean AlgorithmGiven aaa
+and bbb, we can write an equation linking the two:a=b⋅q+ra =
+b \cdot q + ra=b⋅q+r​Where qqq and rrr are integers which
+fit the equation with r<br < br<b. Basically, bbb divides
+into aaa a maximum of qqq times with a remainder of rrr. But
+here's where the trick lies.Every term added together in
+that equation must be divisible by gcd(a,b)gcd(a,b)gcd(a,b)
+because if we treat the gcd as ggg we can say that
+a=k1g,b=k2ga=k_1g,b=k_2ga=k1​g,b=k2​g​:k1g=k2g⋅q+rk_1g =
+k_2g \cdot q + rk1​g=k2​g⋅q+rMeaning rrr has to be some
+integer multiple of ggg​.But now, if we think outside the
+box, we realise that both bbb and rrr are divisible by
+gcd(a,b)gcd(a,b)gcd(a,b)... so we can just calculate
+gcd(b,r)gcd(b, r)gcd(b,r)!This is quite a leap forward which
+will require a bit of thinking, but let's break it down
+algebraically:a=b⋅q0+r1b=r1⋅q1+r2r1=r2⋅q2+r3r2=r3⋅q3+r4a = b
+\cdot q_0 + r_1 \\
+b = r_1 \cdot q_1 + r_2 \\
+r_1 = r_2 \cdot q_2 + r_3 \\
+r_2 = r_3 \cdot q_3 + r_4
+\\a=b⋅q0​+r1​b=r1​⋅q1​+r2​r1​=r2​⋅q2​+r3​r2​=r3​⋅q3​+r4​And
+so on. But when does it stop? When do we stop taking the
+GCD? Well we can stop taking the GCD once rn=0r_n = 0rn​=0,
+in which case rn−1∣rn−2r_{n-1} \mid r_{n-2}rn−1​∣rn−2​ and
+as a result we can take rn−1r_{n-1}rn−1​ as the GCD!I highly
+recommend you think about this for a bit until it makes
+sense to you, and make sure to use other resources if it
+helps!ExampleLet’s say we want to find the GCD of 8075 and
+16283. First, we can write it in the form a=b⋅q+ra= b \cdot
+q+r a=b⋅q+r:16283=8075⋅2+13316283 = 8075·2 +
+13316283=8075⋅2+133And now we attempt to calculate the GCD
+of 8075 and
+133.8075=133⋅60+95133=95⋅1+3895=38⋅2+1938=19⋅2+08075 = 133
+\cdot 60 + 95 \\
+    133 = 95 \cdot 1 + 38 \\
+    95 = 38 \cdot 2 + 19 \\
+    38 = 19 \cdot 2 +
+08075=133⋅60+95133=95⋅1+3895=38⋅2+1938=19⋅2+0Therefore the
+GCD of 16283 and 8075 is 19.Extended Euclidean AlgorithmWe
+can take the Euclidean Algorithm a step further and
+calculate, in addition to the GCD, u,v∈Zu,v \in
+\mathbb{Z}u,v∈Z for a,ba,ba,b which sum to the GCD,
+i.e.au+bv=gcd(a,b) au + bv = gcd(a,b) au+bv=gcd(a,b)This
+extension of the algorithm is invaluable for calculating
+modular inverses of numbers and is based on using the
+Euclidean Algorithm to calculate the GCD then writing it in
+terms of other numbers, repeating the process for the
+smallest non-GCD number until we reach an equation with only
+the GCD and the two starting numbers. Let's work with the
+example above, writing an equation for the GCD:19=95−38⋅219
+= 95 - 38 \cdot 219=95−38⋅2Now 38 is the smallest non-GCD
+number, and we can write it in terms of the larger number in
+the sequence of equations written in the example, then
+repeat for the next smallest:19=95−38⋅2=95−(133−95⋅1)⋅2=95−(
+133⋅2+95⋅−2)=95⋅3+133⋅−2=(8075+133⋅−60)⋅3+133⋅−2=8075⋅3+133⋅
+−180+133⋅−2=8075⋅3+133⋅−182=8075⋅3+(16283+8075⋅−2)⋅−182=8075
+⋅3+16283⋅−182+8075⋅364=8075⋅367+16283⋅−18219 = 95 - 38 \cdot
+2 \\
+    = 95 - (133 - 95 \cdot 1) \cdot 2 \\
+    = 95 - (133 \cdot 2 + 95 \cdot -2) \\
+    = 95 \cdot 3 + 133 \cdot -2 \\
+    = (8075 + 133 \cdot -60) \cdot 3 + 133 \cdot -2 \\
+    = 8075 \cdot 3 + 133 \cdot -180 + 133 \cdot -2 \\
+    = 8075 \cdot 3 + 133 \cdot -182 \\
+    = 8075 \cdot 3 + (16283 + 8075 \cdot -2) \cdot -182 \\
+    = 8075 \cdot 3 + 16283 \cdot -182 + 8075 \cdot 364 \\
+    = 8075 \cdot 367 + 16283 \cdot -18219=95−38⋅2=95−(133−95
+⋅1)⋅2=95−(133⋅2+95⋅−2)=95⋅3+133⋅−2=(8075+133⋅−60)⋅3+133⋅−2=8
+075⋅3+133⋅−180+133⋅−2=8075⋅3+133⋅−182=8075⋅3+(16283+8075⋅−2)
+⋅−182=8075⋅3+16283⋅−182+8075⋅364=8075⋅367+16283⋅−182Therefor
+e our equation au+bv=gcd(a,b)au + bv =
+gcd(a,b)au+bv=gcd(a,b) is as
+follows:16283⋅−182+8075⋅367=1916283 \cdot -182 + 8075 \cdot
+367 = 1916283⋅−182+8075⋅367=19PreviousCryptoNext -
+FundamentalsModular ArithmeticLast modified 1yr agoCopy
+linkOn this pageDivisibilityGreatest Common DivisorEuclidean
+AlgorithmExtended Euclidean Algorithm
+
+
+
+
+
+
+
+
+
+
+Fermat Factorisation - Crypto
+
+
+
+
+
+
+
+
+
+
+
+🖊🖊🖊🖊CryptoSearch⌃K🖊🖊🖊🖊CryptoSearch⌃KCryptoFundamentalsDivisi
+bility, Factors and Euclid's AlgorithmsModular
+ArithmeticRings, Fields and Euler's Totient FunctionFurther
+MathsContinued FractionsRSAOverviewPublic Exponent
+AttacksChoice of PrimesN is primeMersenne PrimesP=QFermat
+FactorisationFactorisation MethodsDiffie-Hellman Key
+ExchangeOverviewSolving the DLPPowered By GitBookFermat
+FactorisationUsed when p and q are numericaly closeIf ppp
+and qqq are numerically close, we can use Fermat
+Factorisation.During Fermat Factorisation, we hope to find
+aaa and bbb such thata2−b2=Na^2 - b^2 = Na2−b2=NBecause that
+then means we can factorise the left-hand expression
+into(a+b)(a−b)=N(a+b)(a-b)=N(a+b)(a−b)=NAs thus we get the
+two factors of NNN as (a+b)(a+b)(a+b) and
+(a−b)(a-b)(a−b).The reason we use this when ppp and $q$ are
+numerically close is because the closer they are to each
+other the closer they are to N\sqrt{N}N​. If we say
+a=Na=\sqrt{N}a=N​ rounded up to the nearest number, we can
+calculate b2=a2−Nb^2 = a^2-Nb2=a2−N (as rearranged from
+before) until bbb is a whole number, after which we've
+solved the equation.An example of this attack can be found
+in this writeup, which may make it a bit
+clearer.PreviousP=QNext - RSAFactorisation MethodsLast
+modified 1yr agoCopy link
+
+
+
+
+
+
+
+
+
+
+Overview - Crypto
+
+
+
+
+
+
+
+
+
+
+
+🖊🖊🖊🖊CryptoSearch⌃K🖊🖊🖊🖊CryptoSearch⌃KCryptoFundamentalsDivisi
+bility, Factors and Euclid's AlgorithmsModular
+ArithmeticRings, Fields and Euler's Totient FunctionFurther
+MathsContinued FractionsRSAOverviewPublic Exponent
+AttacksChoice of PrimesFactorisation MethodsDiffie-Hellman
+Key ExchangeOverviewSolving the DLPPowered By
+GitBookOverviewUnlike RSA, where you can send messages of
+your choice, the DHKE is used to generate a secret number
+shared between Alice and Bob. This shared secret is then
+used as the key for a symmetric cryptosystem like AES.The
+Key ExchangeA large prime ppp and a generator g∈Fp,g≠0g \in
+\mathbb{F}_p, g \neq 0g∈Fp​,g=0 are made public.Alice and
+Bob choose their secret integers aaa and bbb respectively.
+They then compute the following:A=gamod  pB=gbmod  pA = g^a
+\mod p \\
+B = g^b \mod pA=gamodpB=gbmodpThese numbers AAA and BBB are
+exchanged between Alice and Bob over a public channel. Once
+the other person's number is received, they then put it to
+the power of their secret integer, i.e. Alice computes
+BaB^aBa and Bob computes AbA^bAb, both modulo ppp. Note
+that:Ba=(gb)a=gab=(ga)b=AbB^a = (g^b)^a = g^{ab} = (g^a)^b =
+A^bBa=(gb)a=gab=(ga)b=AbThis means that once they do this,
+they are in possession of the same number, which they can
+then use as a shared secret.The Discrete Logarithm
+ProblemThe safety of the Diffie-Hellman Key Exchange is
+grounded on he difficulty of solving the discrete logarithm
+problem - the difficulty of computing xxx givengx≡amod  pg^x
+\equiv a \mod pgx≡amodpYou can see this in Overview
+presented above - the values gamod  pg^a \mod pgamodp and
+gbmod  pg^b \mod pgbmodp are sent over a public channel, but
+because we cannot solve the DLP efficiently an attacker is
+unable to retrieve aaa or bbb. We say that the DLP is DHKE's
+trapdoor function.As you may expect from here, many attacks
+on Diffie-Hellman rely on situations in which you can
+efficiently compute the discrete logarithm.PreviousPollard's
+p-1Next - Diffie-Hellman Key ExchangeSolving the DLPLast
+modified 1yr agoCopy linkOn this pageThe Key ExchangeThe
+Discrete Logarithm Problem
+
+
+
+
+
+
+
+
+
+
+Overview - Crypto
+
+
+
+
+
+
+
+
+
+
+
+🖊🖊🖊🖊CryptoSearch⌃K🖊🖊🖊🖊CryptoSearch⌃KCryptoFundamentalsDivisi
+bility, Factors and Euclid's AlgorithmsModular
+ArithmeticRings, Fields and Euler's Totient FunctionFurther
+MathsContinued FractionsRSAOverviewPublic Exponent
+AttacksChoice of PrimesFactorisation MethodsDiffie-Hellman
+Key ExchangeOverviewSolving the DLPPowered By
+GitBookOverviewEncryptionAlice first generates primes ppp
+and qqq and NNN such that N=pqN=pqN=pq. This is half of the
+public key, with the other half being the public exponent
+eee, which should be coprime to ϕ(N)\phi (N)ϕ(N) (meaning
+gcd(ϕ(N),e)=1gcd(\phi (N), e) = 1gcd(ϕ(N),e)=1). These two
+values are then made public.If Bob wants to send a message
+MMM to Alice using RSA, he calculates:c=Memod  Nc = M^e \mod
+Nc=MemodNWhere ccc is now the ciphertext and is sent to
+Alice.DecryptionAlice calculates ϕ(N)=(p−1)(q−1)\phi (N) =
+(p-1)(q-1)ϕ(N)=(p−1)(q−1) and then calculates the modular
+multiplicative inverse ddd of emod  ϕ(N)e \mod \phi
+(N)emodϕ(N). ddd is the private key used for the decryption
+which is known only to Alice.To decrypt, the Alice
+calculates MMM again:M=cdmod  NM = c^d \mod NM=cdmodNThe
+proof for this is based on Euler's Formula. Because we
+calculated ddd such that de≡1mod  ϕ(N)de \equiv 1 \mod \phi
+(N)de≡1modϕ(N), then we know that there is an integer kkk
+such that de=kϕ(N)+1de = k\phi (N) + 1de=kϕ(N)+1. Also note
+that cd≡(Me)d≡Mdec^d \equiv (M^e)^d \equiv M^{de}cd≡(Me)d≡Md
+e:Mde≡Mkϕ(N)+1≡Mkϕ(N)×M≡(Mϕ(N))k×M≡1k×M≡Mmod  NM^{de} \equiv
+M ^ {k\phi (N) + 1} \equiv M^{k\phi (N)} \times M \equiv
+(M^{\phi (N)})^k \times M \equiv 1^k \times M \equiv M \mod
+NMde≡Mkϕ(N)+1≡Mkϕ(N)×M≡(Mϕ(N))k×M≡1k×M≡MmodNAttacks on
+RSAAttacks on RSA generally fall into several categories,
+including weak public exponent or a poor choice of p,qp,qp,q
+which results in a value of NNN which can be factorised or
+attacked in another way. Remember that the trapdoor function
+in RSA is the difficulty of factoring NNN into the primes
+that make it up so only Alice is able to compute
+ϕ(N)\phi(N)ϕ(N) efficiently!Further Maths -
+PreviousContinued FractionsNext - RSAPublic Exponent
+AttacksLast modified 1yr agoCopy linkOn this
+pageEncryptionDecryptionAttacks on RSA
+
+
+
+
+
+
+
+
+
+
+Continued Fractions - Crypto
+
+
+
+
+
+
+
+
+
+
+
+
+🖊🖊🖊🖊CryptoSearch⌃K🖊🖊🖊🖊CryptoSearch⌃KCryptoFundamentalsDivisi
+bility, Factors and Euclid's AlgorithmsModular
+ArithmeticRings, Fields and Euler's Totient FunctionFurther
+MathsContinued FractionsRSAOverviewPublic Exponent
+AttacksChoice of PrimesFactorisation MethodsDiffie-Hellman
+Key ExchangeOverviewSolving the DLPPowered By
+GitBookContinued FractionsOverviewContinued Fractions are a
+way of representing real numbers as a sequence of positive
+integers. Let's say we have a real number α1\alpha_1α1​. We
+can form a sequence of positive integers from α1\alpha_1α1​
+in this way:α1=a1+1α2,where a1=⌊x⌋\alpha_1 = a_1 +
+\frac{1}{\alpha_2}, \text{where } a_1=\left \lfloor{x}\right
+\rfloor α1​=a1​+α2​1​,where a1​=⌊x⌋​For example, let's say
+α1=1.5\alpha_1=1.5α1​=1.5​. We can say
+thatα1=1+12,with α2=2\alpha_1 = 1 + \frac{1}{2}, \text{with
+} \alpha_2 = 2α1​=1+21​,with α2​=2​The trick here is that if
+α2∉Z\alpha_2\not\in \mathbb{Z}α2​∈Z, we can continue this
+exact process with α2\alpha_2α2​ and keep the continued
+fraction going.α1=a1+1a2+1a3+1⋱\alpha_1 = a_1 + \frac{1}{a_2
++ \frac{1}{a_3 +
+\frac{1}{\ddots}}}α1​=a1​+a2​+a3​+⋱1​1​1​ExampleLet's take
+another example, that of 1711\frac{17}{11}1117​:​1711=1+611=
+1+1116=1+11+56=1+11+165=1+11+11+15\frac{17}{11} = 1 +
+\frac{6}{11} = 1 + \frac{1}{\frac{11}{6}} = 1 + \frac{1}{1 +
+\frac{5}{6}}  = 1 + \frac{1}{1 + \frac{1}{\frac{6}{5}}} = 1
++ \frac{1}{1 + \frac{1}{1 + \frac{1}{5}}}1117​=1+116​=1+611​
+1​=1+1+65​1​=1+1+56​1​1​=1+1+1+51​1​1​​The list of continued
+fractions is represented as a list of the coefficients
+aia_iai​, in this case1711=[1;1,1,5]\frac{17}{11} = \left[
+1; 1, 1, 5 \right]1117​=[1;1,1,5]ConvergentsThe kkkth
+convergent of a continued fraction is the approximation of
+the fraction we gain by truncating the continued fraction
+and using only the first kkk terms of the sequence, for
+example the 2nd convergence of 1711\frac{17}{11}1117​ is
+1+11=21=21 + \frac{1}{1} = \frac{2}{1} = 21+11​=12​=2​ while
+the 3rd would be 1+11+11=1+12=321 + \frac{1}{1 +
+\frac{1}{1}} = 1 + \frac{1}{2} =
+\frac{3}{2}1+1+11​1​=1+21​=23​.One of the obvious
+applications of these convergents is as rational
+approximations to irrational numbers.Properties of
+ConvergencesAs a sequence, they have a limitThis limit is
+α1\alpha_1α1​, the real number you are attempting to
+approximateThey are alternately greater than and less than
+α1\alpha_1α1​​SageIn Sage, we can define a continue fraction
+very easily:f = continued_fraction(17/11)We can then print
+off the list of coefficients:print(f)>>> [1; 1, 1, 5]And the
+convergents are even calculated for
+us:print(f.convergents())>>> [1, 2, 3/2, 17/11]Fundamentals
+- PreviousRings, Fields and Euler's Totient FunctionNext -
+RSAOverviewLast modified 1yr agoCopy linkOn this
+pageOverviewExampleConvergentsProperties of ConvergencesSage
+
+
+
+
+
+
+
+
+
+
+e=1 - Crypto
+
+
+
+
+
+
+
+
+
+
+
+
+🖊🖊🖊🖊CryptoSearch⌃K🖊🖊🖊🖊CryptoSearch⌃KCryptoFundamentalsDivisi
+bility, Factors and Euclid's AlgorithmsModular
+ArithmeticRings, Fields and Euler's Totient FunctionFurther
+MathsContinued FractionsRSAOverviewPublic Exponent
+Attackse=1Small eMulti-party RSA with Small eWiener's
+AttackChoice of PrimesFactorisation MethodsDiffie-Hellman
+Key ExchangeOverviewSolving the DLPPowered By GitBooke=1When
+$e=1$, the encryption is virtually useless​c=Me=M1=Mmod  Nc
+= M^e = M^1 = M \mod Nc=Me=M1=MmodNAt that point, ciphertext
+ccc is equal to MMM, and it's unencrypted.from
+Crypto.Util.number import
+long_to_bytes​print(long_to_bytes(m))RSA - PreviousPublic
+Exponent AttacksNextSmall eLast modified 1yr agoCopy link
+
+
+
+
+
+
+
+
+
+
+Crypto - Crypto
+
+
+
+
+
+
+
+
+
+
+🖊🖊🖊🖊CryptoSearch⌃K🖊🖊🖊🖊CryptoSearch⌃KCryptoFundamentalsDivisi
+bility, Factors and Euclid's AlgorithmsModular
+ArithmeticRings, Fields and Euler's Totient FunctionFurther
+MathsContinued FractionsRSAOverviewPublic Exponent
+AttacksChoice of PrimesFactorisation MethodsDiffie-Hellman
+Key ExchangeOverviewSolving the DLPPowered By
+GitBookCryptoWelcome to my repository of cryptography notes!
+As I learn new concepts and techniques, I will do my best to
+outline them here and make it as intuitive as possible.A lot
+of the maths referenced here is mentioned in my Maths blog,
+where I'll be putting anything that is more "generic" than
+cryptography-related.​If this resource has been helpful to
+you, please consider supporting me on buymeacoffee
+:)​Extended Research Project.pdf392KBPDFMy Final Extended
+Research Project​~ Andrej LjubicNext -
+FundamentalsDivisibility, Factors and Euclid's
+AlgorithmsLast modified 22d agoCopy link
+
+
+
+
+
+
+
+
+
+
+Choice of Primes - Crypto
+
+
+
+
+
+
+
+
+
+
+🖊🖊🖊🖊CryptoSearch⌃K🖊🖊🖊🖊CryptoSearch⌃KCryptoFundamentalsDivisi
+bility, Factors and Euclid's AlgorithmsModular
+ArithmeticRings, Fields and Euler's Totient FunctionFurther
+MathsContinued FractionsRSAOverviewPublic Exponent
+AttacksChoice of PrimesN is primeMersenne PrimesP=QFermat
+FactorisationFactorisation MethodsDiffie-Hellman Key
+ExchangeOverviewSolving the DLPPowered By GitBookChoice of
+PrimesHere are the articles in this section:N is
+primeMersenne PrimesP=QFermat FactorisationPreviousWiener's
+AttackNextN is primeLast modified 1yr agoCopy link
+
+
+
+
+
+
+
+
+
+
+N is prime - Crypto
+
+
+
+
+
+
+
+
+
+
+
+🖊🖊🖊🖊CryptoSearch⌃K🖊🖊🖊🖊CryptoSearch⌃KCryptoFundamentalsDivisi
+bility, Factors and Euclid's AlgorithmsModular
+ArithmeticRings, Fields and Euler's Totient FunctionFurther
+MathsContinued FractionsRSAOverviewPublic Exponent
+AttacksChoice of PrimesN is primeMersenne PrimesP=QFermat
+FactorisationFactorisation MethodsDiffie-Hellman Key
+ExchangeOverviewSolving the DLPPowered By GitBookN is
+primeWhen NNN is prime, ϕ(N)=N−1\phi(N)=N-1ϕ(N)=N−1. This
+makes decryption super simple.RSA - PreviousChoice of
+PrimesNextMersenne PrimesLast modified 1yr agoCopy link
+
+
+
+
+
+
+
+
+
+
+Solving the DLP - Crypto
+
+
+
+
+
+
+
+
+
+
+🖊🖊🖊🖊CryptoSearch⌃K🖊🖊🖊🖊CryptoSearch⌃KCryptoFundamentalsDivisi
+bility, Factors and Euclid's AlgorithmsModular
+ArithmeticRings, Fields and Euler's Totient FunctionFurther
+MathsContinued FractionsRSAOverviewPublic Exponent
+AttacksChoice of PrimesFactorisation MethodsDiffie-Hellman
+Key ExchangeOverviewSolving the DLPBaby Step, Giant
+StepPowered By GitBookSolving the DLPThere are several
+algorithms for solving the DLP, some (and hopefully
+eventually most) of which will be outlined here.Diffie-
+Hellman Key Exchange - PreviousOverviewNextBaby Step, Giant
+StepLast modified 1yr agoCopy link
+
+
+
+
+
+
+
+
+
+
+Rings, Fields and Euler's Totient Function - Crypto
+
+
+
+
+
+
+
+
+
+
+
+🖊🖊🖊🖊CryptoSearch⌃K🖊🖊🖊🖊CryptoSearch⌃KCryptoFundamentalsDivisi
+bility, Factors and Euclid's AlgorithmsModular
+ArithmeticRings, Fields and Euler's Totient FunctionFurther
+MathsContinued FractionsRSAOverviewPublic Exponent
+AttacksChoice of PrimesFactorisation MethodsDiffie-Hellman
+Key ExchangeOverviewSolving the DLPPowered By GitBookRings,
+Fields and Euler's Totient FunctionThe basics of Rings,
+Fields and Euler's Phi FunctionRingsIn modular arithmetic we
+work modulo some modulus mmm, and we can think of the
+numbers we are able to use this way as a group of
+numbers:Z/mZ={0,1,2,...,m−1}\mathbb{Z}/m\mathbb{Z} =
+\{0,1,2,...,m-1\}Z/mZ={0,1,2,...,m−1}​This ring
+Z/mZ\mathbb{Z}/m\mathbb{Z}Z/mZ is the ring of integers
+modulo m. We are able to add and multiply elements of this
+ring, then divide by mmm and take the remainder to obtain an
+element in Z/mZ\mathbb{Z}/m\mathbb{Z}Z/mZ. There are general
+rules which define this as a ring, including the need for
+associative addition and multiplication.Units of a RingAs we
+discussed, a∈Z/mZa \in \mathbb{Z}/m\mathbb{Z}a∈Z/mZ has a
+modular multiplicative inverse if
+gcd(a,m)=1gcd(a,m)=1gcd(a,m)=1. The set of all numbers with
+modular inverses are denoted as
+(Z/mZ)∗(\mathbb{Z}/m\mathbb{Z})^*(Z/mZ)∗ - this is called
+the group of units modulo mmm. Number which have inverses
+are called units. For
+example:(Z/12Z)∗={1,5,7,11}(\mathbb{Z}/12\mathbb{Z})^* =
+\{1,5,7,11\}(Z/12Z)∗={1,5,7,11}You can think of the group of
+units modulo 121212 as essentially a set containing all
+numbers less than 121212 which are coprime with it.FieldsIf
+every number in Z/mZ\mathbb{Z}/m\mathbb{Z}Z/mZ has a modular
+inverse, it is promoted from a ring to a field (a field is a
+ring in which division is possible). Note that the only
+values of mmm where this are possible are values which are
+prime, which is why these fields are usually denoted
+Fp\mathbb{F}_pFp​. A finite field (also called a Galois
+field) is a field with a finite number of elements, such as
+those used in modular arithmetic. As a result, the term
+finite field will come up quite often to describe
+Fp\mathbb{F}_pFp​.Relevant Sets of Numbers​Z\mathbb{Z}Z
+denotes the ring of integers - note it is not a field, as
+there are no fractions to provide inverses. Euler's Totient
+FunctionEuler's totient function returns the number of
+elements in the group of units modulo mmm. Mathematically,
+this means:ϕ(m)=#(Z/mZ)∗=#{0≤a<m:gcd(a,m)=1}\phi(m) =
+\#(\mathbb{Z}/m\mathbb{Z})^* = \#\{0 \leq a < m : gcd(a,m) =
+1\}ϕ(m)=#(Z/mZ)∗=#{0≤a<m:gcd(a,m)=1}​This function has a
+huge array of applications and further rules which allow us
+to do some pretty awesome things, and is a key piece of the
+RSA cryptosystem.Totient RulesIf
+gcd(p,q)=1gcd(p,q)=1gcd(p,q)=1 then ϕ(pq)=ϕ(p)ϕ(q)\phi(pq)=\
+phi(p)\phi(q)ϕ(pq)=ϕ(p)ϕ(q).Computing the Euler TotientIf we
+say that the prime factorisation of nnn is
+n=p1e1⋅p2e2⋅...⋅pkekn=p_1^{e_1} \cdot p_2^{e_2} \cdot ...
+\cdot p_k^{e_k} n=p1e1​​⋅p2e2​​⋅...⋅pkek​​
+thenϕ(n)=n∏p∣n(1−1p)\phi(n) = n \prod_{p \mid n}
+(1-\frac{1}{p})ϕ(n)=np∣n∏​(1−p1​)Note that if ppp is prime,
+ϕ(p)=p−1\phi (p) = p-1ϕ(p)=p−1.ProofTODOEuler's
+FormulaEuler's Formula states that if
+gcd(a,p)=1gcd(a,p)=1gcd(a,p)=1 then​aϕ(n)≡1mod  na^{\phi(n)}
+\equiv 1 \mod naϕ(n)≡1modnThis is perhaps the most important
+formula for the RSA cryptosystem, which we will get to
+soon.​ Note that this actually tells us a little more in the
+case modulo a prime ppp, a case named after Fermat.Fermat's
+Little TheoremSince ϕ(p)=p−1\phi(p)=p-1ϕ(p)=p−1​, Fermat's
+Little Theorem states that:ap−1≡1mod  pa^{p-1} \equiv 1 \mod
+pap−1≡1modpThis was stated by Fermat over 100 years before
+Euler's Formula. You may note that this also gives us a
+quick way to compute the modular multiplicative inverse of
+aaa in Fp\mathbb{F}_pFp​:ap−1≡1mod  pap−1⋅a−1≡1⋅a−1mod  pap−
+2≡a−1mod  pa^{p-1} \equiv 1 \mod p \\
+a^{p-1} \cdot a^{-1} \equiv 1 \cdot a^{-1} \mod p \\
+a^{p-2} \equiv a^{-1} \mod p
+ap−1≡1modpap−1⋅a−1≡1⋅a−1modpap−2≡a−1modp​Fundamentals -
+PreviousModular ArithmeticNext - Further MathsContinued
+FractionsLast modified 5mo agoCopy linkOn this
+pageRingsUnits of a RingFieldsRelevant Sets of
+NumbersEuler's Totient FunctionTotient RulesComputing the
+Euler TotientEuler's FormulaFermat's Little Theorem
+
+
+
+
+
+
+
+
+
+
+Modular Arithmetic - Crypto
+
+
+
+
+
+
+
+
+
+
+
+🖊🖊🖊🖊CryptoSearch⌃K🖊🖊🖊🖊CryptoSearch⌃KCryptoFundamentalsDivisi
+bility, Factors and Euclid's AlgorithmsModular
+ArithmeticRings, Fields and Euler's Totient FunctionFurther
+MathsContinued FractionsRSAOverviewPublic Exponent
+AttacksChoice of PrimesFactorisation MethodsDiffie-Hellman
+Key ExchangeOverviewSolving the DLPPowered By GitBookModular
+ArithmeticAn introduction to the fundamentalsThe
+BasicsModular Arithmetic is an incredibly important aspect
+of practically all asymmetric cryptography. A common way to
+refer to it is as clock arithmetic - imagine it's eleven
+o'clock right now. Three hours later it'll be two o'clock,
+right? Well we do the same thing in modular
+arithmetic:11+3=14≡2mod  1211 + 3 = 14 \equiv 2 \mod
+1211+3=14≡2mod12​Essentially we take the sum of 111111 and
+333 and then divide by 121212 and keep the remainder. Here,
+the 121212 is called the modulus. The triple equals ≡\equiv≡
+denotes a congruence, and we say 141414 is congruent to 222
+mod  12\mod 12mod12.We can think of this another way and say
+that two numbers aaa and bbb are congruent modulo mmm if
+their difference a−ba-ba−b is divisible by mmm. For example,
+262626 and 222 are congruent modulo 121212 because
+26−2=2426-2=2426−2=24 which is divisible by 121212.Modular
+(Multiplicative) InversesIn normal maths, every number has
+an inverse - another number that, when multiplied with them,
+equals 111. In maths terms, we would say that for every
+number aaa there is another bbb where ab=1ab=1ab=1.
+Generally, we can say that b=1ab=\frac{1}{a}b=a1​ as that
+fits the equation - the inverse of 777, for example, is
+17\frac{1}{7}71​.In modular arithmetic, there are no
+fractions. Instead of finding bbb such that ab=1ab=1ab=1, we
+instead find bbb such that ab≡1mod  mab \equiv 1 \mod
+mab≡1modm. This means that for different values of mmm there
+are different inverses for aaa. For example, the inverse of
+3mod  53 \mod 53mod5 is 222, because 3⋅2=6≡1mod  53 \cdot 2
+= 6 \equiv 1 \mod 53⋅2=6≡1mod5. This inverse is called the
+modular multiplicative inverse. We can therefore say that
+3−1≡2mod  53^{-1} \equiv 2 \mod 53−1≡2mod5.Yet not every
+number aaa has an inverse modulo mmm - for example, 222 has
+no inverse modulo 666. Why? This is because
+gcd(a,m)=1gcd(a,m)=1gcd(a,m)=1. Let's prove this in the
+general case and see why that is.Proof Assume there is bbb
+such that a⋅b≡1mod  ma \cdot b \equiv 1 \mod ma⋅b≡1modm.
+This would mean that there also exists ccc such that
+ab=cm+1ab = cm + 1ab=cm+1 and therefore ab−cm=1ab - cm =
+1ab−cm=1. It follows therefore that both sides must be
+divisible by gcd(a,m)gcd(a,m)gcd(a,m), meaning
+gcd(a,m)=1gcd(a,m)=1gcd(a,m)=1.As a result, if there is an
+inverse of aaa modulo mmm, such an inverse can only exist if
+gcd(a,m)=1gcd(a,m)=1gcd(a,m)=1 □\square□​An Intuitive
+ApproachIf you're struggling to visualise this proof, think
+back to the previous example of 222 having no inverse modulo
+666. Why is this? Well, regardless of how much you multiply
+222 with, the sequence will go 0,2,4,0,2,4,...0, 2, 4, 0, 2,
+4, ...0,2,4,0,2,4,... and loop around because it is a factor
+of 6.Actually, the fact that a number it is not coprime with
+the modulus shows that it can never have an inverse. Again,
+why? Think about it this way: if they have a common factor,
+the remainder when one is divided by the other will also
+have that factor - and therefore not be 111. If we choose
+444 rather than 222, we can see this - if there is a common
+factor (as there is of 222 in this case) there is no value
+xxx for which 4x4x4x will return 111 modulo 666. Any number
+you can multiply 444 by will always give a remainder
+divisible by 222 when divided by 6.I suggest you spend some
+time reflecting on this fact, as it is a very important
+result.UsesThe uses of modular multiplicative inverses are
+similar to those of regular inverses - as division.
+Normally, if we divide two numbers, we can treat the number
+being divided by as multiplying by its
+inverse.8÷2=8⋅2−1=8⋅12=48 \div 2 = 8 \cdot 2^{-1} = 8 \cdot
+\frac{1}{2} = 48÷2=8⋅2−1=8⋅21​=4​We can use the modular
+multiplicative inverse the same way - say we want to divide
+333 by 222, modulo 777:3÷2≡3⋅2−1≡3⋅4≡12≡5mod  73 \div 2
+\equiv 3 \cdot 2^{-1} \equiv 3 \cdot 4 \equiv 12 \equiv 5
+\mod 7 \\
+3÷2≡3⋅2−1≡3⋅4≡12≡5mod7Note that 444 is the inverse of 222 as
+2⋅4≡1mod  72 \cdot 4 \equiv 1 \mod 72⋅4≡1mod7.And just like
+that we realise that dividing 333 by 222 modulo 777 gives us
+555.Fundamentals - PreviousDivisibility, Factors and
+Euclid's AlgorithmsNext - FundamentalsRings, Fields and
+Euler's Totient FunctionLast modified 6mo agoCopy linkOn
+this pageThe BasicsModular (Multiplicative) InversesProof An
+Intuitive ApproachUses
+
+
+
+
+
+
+
+
+
+
+Baby Step, Giant Step - Crypto
+
+
+
+
+
+
+
+
+
+
+
+🖊🖊🖊🖊CryptoSearch⌃K🖊🖊🖊🖊CryptoSearch⌃KCryptoFundamentalsDivisi
+bility, Factors and Euclid's AlgorithmsModular
+ArithmeticRings, Fields and Euler's Totient FunctionFurther
+MathsContinued FractionsRSAOverviewPublic Exponent
+AttacksChoice of PrimesFactorisation MethodsDiffie-Hellman
+Key ExchangeOverviewSolving the DLPBaby Step, Giant
+StepPowered By GitBookBaby Step, Giant StepThe simple
+iterative approachBaby Step, Giant Step is a very simple
+approach to solving the DLP often described as a meet-in-
+the-middle algorithm.ApproachLet us say that ax≡bmod  pa^x
+\equiv b \mod pax≡bmodp. First we choose an arbitrary number
+kkk, which defines how many iterations we try. Next we
+evaluatea,a2,a3,...,ak−1a, a^2, a^3, ...,
+a^{k-1}a,a2,a3,...,ak−1​Following that, we
+evaluateba−k,ba−2k,ba−3k,...,ba−rk where rk>pba^{-k},
+ba^{-2k}, ba^{-3k},...,ba^{-rk} \text{
+ where } rk>pba−k,ba−2k,ba−3k,...,ba−rk where rk>p​If the
+DLP has a soultion, there will be at least one common value
+in both lists. If we let these common values be ana^nan and
+ba−mkba^{-mk}ba−mk, we can then solve it easily from
+there:an≡ba−mkmod  pamk+n≡bmod  pa^n \equiv ba^{-mk} \mod p
+\\
+a ^ {mk + n} \equiv b \mod pan≡ba−mkmodpamk+n≡bmodpSolving
+the DLP! A few problems arise, however.You will first notice
+that our choice of kkk is arbitrary. If ppp is large enough,
+this approach becomes completely infeasible, so using solely
+this algorithm is only effective when ppp is small. After
+all, this is a very naive brute-force approach.Diffie-
+Hellman Key Exchange - PreviousSolving the DLPLast modified
+1yr agoCopy link
+
+
+
