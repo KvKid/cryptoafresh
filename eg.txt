@@ -1,0 +1,14 @@
+add blockchain source
+
+rerun on 1e7 marketcap
+store pdfs
+
+cg
+g
+gitbooks/docs
+secondary links via urls for .pdf
+google
+
+asset_platform
+
+hackerspace ny

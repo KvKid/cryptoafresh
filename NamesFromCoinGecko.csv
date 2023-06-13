@@ -152,7 +152,6 @@ abcmeta,meta,ABCMETA
 abc-pos-pool,abc,ABC PoS Pool
 abel-finance,abel,ABEL Finance
 abelian,abel,Abelian
-abey,abey,Abey
 able-finance,able,Able Finance
 aboat-token-2,aboat,Aboat Token
 absolute-sync-token,ast,Absolute Sync
@@ -185,6 +184,7 @@ acy-finance,acy,ACY Finance
 adacash,adacash,ADAcash
 adadao,adao,ADADao
 adamant,addy,Adamant
+adamant-messenger,adm,ADAMANT Messenger
 adanaspor-fan-token,adana,Adanaspor Fan Token
 adapad,adapad,ADAPad
 adappter-token,adp,Adappter
@@ -224,9 +224,9 @@ aerovek-aviation,aero,Aerovek Aviation
 aeternity,ae,Aeternity
 aether-games,aeg,Aether Games
 aeur,aeur,AEUR
+aevum-ore,aevum,Aevum
 aezora,azr,Azzure
 afen-blockchain,afen,AFEN Blockchain
-affinity,afnty,Affinity
 affyn,fyn,Affyn
 afin-coin,afin,Asian Fintech
 afkdao,afk,AFKDAO
@@ -268,7 +268,6 @@ aichain,ait,AICHAIN
 ai-code,aicode,AI CODE
 aicoin-2,ai,AICoin
 aicon,aico,Aicon
-aidcoin,aid,AidCoin
 aidi-finance-2,aidi,Aidi Finance
 ai-dogemini,aidogemini,AI DogeMini
 aidos-kuneen,adk,Aidos Kuneen
@@ -346,6 +345,7 @@ algostake,stke,AlgoStake
 alibabacoin,abbc,ABBC
 alibaba-tokenized-stock-defichain,dbaba,Alibaba Tokenized Stock Defichain
 alicenet,alca,AliceNet
+alien-chicken-farm,acf,Alien Chicken Farm
 alienfi,alien,AlienFi
 alien-inu,alien,Alien Inu
 alienswap,alien,AlienSwap
@@ -421,7 +421,6 @@ amazy,azy,Amazy
 amazy-move-token,amt,Amazy Move Token
 amber,amb,AirDAO
 ambire-wallet,wallet,Ambire Wallet
-amdg-token,amdg,AMDG
 amepay,ame,AME Chain
 american-shiba,ushiba,American Shiba
 amgen,amg,Amgen
@@ -470,7 +469,6 @@ anonzk,azk,AnonZK
 another-world,awm,Another World
 anrkey-x,$anrx,AnRKey X
 answer-governance,agov,Answer Governance
-answerly,ansr,Answerly
 antedao,ante,AnteDAO
 antfarm-governance-token,agt,Antfarm Governance Token
 antfarm-token,atf,Antfarm Token
@@ -483,7 +481,6 @@ any-blocknet,ablock,ANY Blocknet
 anypad,apad,Anypad
 anyswap,any,Anyswap
 aok,aok,AOK
-aonea-coin,a1a,Aonea Coin
 apass-coin,apc,APass Coin
 apch,apch,APCH
 apecoin,ape,ApeCoin
@@ -570,7 +567,6 @@ arcblock,abt,Arcblock
 arcc,arcc,ARCC
 archangel-token,archa,ArchAngel
 arch-blockchains,chain,Arch Blockchains
-archer-dao-governance-token,arch,Archer DAO Governance
 archerswap-bow,bow,Archerswap BOW
 archerswap-hunter,hunt,ArcherSwap Hunter
 arch-ethereum-div-yield,aedy,Arch Ethereum Div. Yield
@@ -607,14 +603,12 @@ arize,arz,ARize
 ark,ark,ARK
 arkadiko-protocol,diko,Arkadiko
 arkadiko-usda,usda,Arkadiko USDA
-arkania-protocol,ania,Arkania Protocol
 arken-finance,$arken,Arken Finance
 arker-2,arker,Arker
 ark-innovation-etf-defichain,darkk,ARK Innovation ETF Defichain
 ark-rivals,arkn,Ark Rivals
 armor,armor,ARMOR
 armour-wallet,armour,Armour Wallet
-army-node-finance,army,Army Node Finance
 arnoya-classic,arnc,Arnoya classic
 arora,aror,Arora
 arowana-token,arw,Arowana
@@ -630,7 +624,6 @@ art-can-die,die,ART CAN DIE
 arte,arte,ARTE
 artem,artem,Artem
 artemis,mis,Artemis
-artemis-vision,arv,Artemis Vision
 arteq-nft-investment-fund,arteq,artèQ NFT Investment Fund
 artery,artr,Artery
 art-gobblers-goo,goo,Art Gobblers Goo
@@ -682,7 +675,7 @@ aster,atc,Aster
 ast-finance,ast,AST.finance
 aston-martin-cognizant-fan-token,am,Aston Martin Cognizant Fan Token
 aston-villa-fan-token,avl,Aston Villa Fan Token
-astra-dao,astra,Astra DAO
+astra-dao,astradao,Astra DAO
 astrafer,astrafer,Astrafer
 astra-guild-ventures,agv,Astra Guild Ventures
 astral-ai,astral,Astral AI
@@ -695,7 +688,6 @@ astriddao-token,atid,AstridDAO
 astroai,astroai,AstroAI
 astro-babies,abb,Astro Babies
 astroelon,elonone,AstroElon
-astronaut,naut,Astronaut
 astro-pepe,astropepe,Astro Pepe
 astroport,astroc,Astroport Classic
 astroport-fi,astro,Astroport
@@ -707,6 +699,7 @@ asva,asva,Asva Labs
 asyagro,asy,ASYAGRO
 asymetrix,asx,Asymetrix
 atari,atri,Atari
+athena-finance,ath,Athena Finance
 athena-returns-olea,olea,Olea Token
 athenas,athenasv2,Athenas
 atheneum,aem,Atheneum
@@ -792,7 +785,6 @@ avian-network,avn,AVIAN
 avinoc,avinoc,AVINOC
 avme,avme,AVME
 avnrich,avn,AVNRich
-avocadocoin,avdo,AvocadoCoin
 avoteo,avo,Avoteo
 axe,axe,Axe
 axel,axel,AXEL
@@ -801,7 +793,6 @@ axia,axiav3,Axia
 axial-token,axial,Axial Token
 axie-infinity,axs,Axie Infinity
 axie-infinity-shard-wormhole,axset,Axie Infinity Shard (Wormhole)
-axioms,axi,Axioms
 axion,axn,Axion
 axis-defi,axis,Axis DeFi
 axis-token,axis,AXIS
@@ -816,14 +807,12 @@ azit,azit,azit
 azuki,azuki,Azuki
 azuma-coin,azum,Azuma Coin
 b20,b20,B20
-b8dex,b8t,B8DEX
 baanx,bxx,Baanx
 baasid,baas,BaaSid
 babacoin,bbc,Babacoin
 babb,bax,BABB
 babil-token,babil,BABIL TOKEN
 baby-alvey,balvey,Baby Alvey
-babyapefunclub,bafc,BabyApeFunClub
 baby-aptos,baptos,Baby Aptos
 baby-arbitrum,barb,Baby Arbitrum
 baby-bali,bb,Baby Bali
@@ -850,7 +839,6 @@ babylon-finance,babl,Babylon Finance
 babylons,babi,Babylons
 baby-lovely-inu,blovely,Baby Lovely Inu
 baby-moon-floki,floki,Baby Moon Floki
-babyokx-2,babyokx,BABYOKX
 babypepe,babypepe,BabyPepe
 baby-pepe,baby pepe,Baby Pepe
 babypepeentire,babypepe,BabyPepeEntire
@@ -898,10 +886,12 @@ ballswap,bsp,BallSwap
 ball-token,ball,Ball
 balpha,balpha,bAlpha
 balto-token,balto,Balto Token
+bambi,bam,Bambi
 bamboo-coin,bmbo,Bamboo Coin
 bamboo-defi,bamboo,BambooDeFi
 bamboo-token-c90b31ff-8355-41d6-a495-2b16418524c2,bbo,PandaFarm (BBO)
 banana,banana,Banana
+bananace,nana,Bananace
 bananaclubtoken,bct,BananaClubToken
 banana-coin,bananacoin,Banana Coin
 banana-task-force-ape,btfa,Banana Task Force Ape
@@ -913,6 +903,7 @@ bancor-governance-token,vbnt,Bancor Governance
 band-protocol,band,Band Protocol
 bankbrc,bank,BANK (Ordinals)
 bankera,bnk,Bankera
+bankercoin,$bank,Bankercoin
 bankers-dream,bank$,Bankers Dream
 bankless-bed-index,bed,Bankless BED Index
 bankless-dao,bank,Bankless DAO
@@ -920,7 +911,6 @@ bankroll-extended-token,bnkrx,Bankroll Extended
 bankroll-vault,vlt,Bankroll Vault
 banksocial,bsl,BankSocial
 bantu,xbn,Bantu
-bao,bao,BAO
 bao-finance,bao,Bao Finance
 bao-finance-v2,bao,Bao Finance V2
 baousd,baousd,baoUSD
@@ -967,7 +957,6 @@ bbs-network,bbs,BBS Network
 bcpay-fintech,bcpay,BCPAY FinTech
 b-cube-ai,bcube,B-cube.ai
 bdollar,bdo,bDollar
-beach-token,beach,Beach Token
 beacon,becn,Beacon
 beam,beam,BEAM
 beamswap,glint,BeamSwap
@@ -976,7 +965,6 @@ bean-cash,bitb,Bean Cash
 bear-inu,bear,Bear Inu
 bear-scrub-money,bear,Bear Scrub Money
 beatgen-nft,bgn,BeatGen NFT
-beatzcoin,btzc,BeatzCoin
 beauty-bakery-linked-operation-transaction-technology,lott,Beauty Bakery Linked Operation Transaction Technology
 becoswap-token,beco,BecoSwap
 bedlingtonterriertoken,bett,BedlingtonTerrierToken
@@ -993,7 +981,6 @@ beethoven-x,beets,Beethoven X
 befasterholdertoken,bfht,BeFaster Holder Token
 befitter,fiu,beFITTER
 befitter-health,hee,beFITTER Health
-be-gaming-coin,bgc,Be Gaming Coin
 beholder,eye,Behodler
 bela,aqua,Bela Aqua
 beldex,bdx,Beldex
@@ -1008,7 +995,6 @@ be-meta-famous,bmf,Be Meta Famous
 bemil-coin,bem,Bemil Coin
 ben-2,ben,Ben
 benddao,bend,BendDAO
-bened,bnd,Bened
 benqi,qi,BENQI
 benqi-liquid-staked-avax,savax,BENQI Liquid Staked AVAX
 bent-finance,bent,Bent Finance
@@ -1035,7 +1021,6 @@ betswirl,bets,BetSwirl
 betted,bet,Betted
 betterfan,bff,BetterFan
 betterment-digital,bemd,Betterment Digital
-betu,betu,Betu
 beyondcoin,bynd,Beyondcoin
 beyond-finance,byn,NBX
 beyondpay,bpay,Beyondpay
@@ -1047,6 +1032,7 @@ bhbd,bhbd,bHBD
 bhive,bhive,bHIVE
 bhnetwork,bhat,BHNetwork
 bho-network,bho,BHO Network
+biaocoin,biao,Biaocoin
 bibi,bibi,BIBI
 biblecoin,bibl,Biblecoin
 biblepay,bbp,BiblePay
@@ -1104,7 +1090,6 @@ binaryx-2,bnx,BinaryX
 bincentive,bcnt,Bincentive
 binemon,bin,Binemon
 bingo,$bingo,Tomorrowland
-binjit-coin,bnj,Binjit Coin
 binopoly,bino,Binopoly
 binspirit,binspirit,binSPIRIT
 binstarter,bsr,BinStarter
@@ -1137,7 +1122,6 @@ bitcicoin,bitci,Bitcicoin
 bitci-racing-token,brace,Bitci Racing Token
 bitcoin,btc,Bitcoin
 bitcoin-2,btc2,Bitcoin 2
-bitcoin-anonymous,btca,Bitcoin Anonymous
 bitcoin-asia,btca,Bitcoin Asia
 bitcoin-atom,bca,Bitcoin Atom
 bitcoin-avalanche-bridged-btc-b,btc.b,Bitcoin Avalanche Bridged (BTC.b)
@@ -1177,7 +1161,6 @@ bitcoinvb,btcvb,BitcoinVB
 bitcoinx,bcx,BitcoinX
 bitcoinz,btcz,BitcoinZ
 bitcoiva,bca,Bitcoiva
-bitcomine,bme,BitcoMine
 bitconey,bitconey,BitConey
 bitcore,btx,BitCore
 bitdao,bit,BitDAO
@@ -1286,7 +1269,6 @@ blockportal,bptl,BlockPortal
 blockremit,remit,BlockRemit
 blockrock,bro$,BlockRock
 blocks,blocks,BLOCKS
-blocksafu,bsafu,BlockSafu
 blockscape,blc,Blockscape
 blocksmith-labs-forge,$forge,Blocksmith Labs Forge
 blocksport,bspt,Blocksport
@@ -1328,11 +1310,9 @@ blurt,blurt,Blurt
 bluzelle,blz,Bluzelle
 bmax,bmax,BMAX
 bmchain-token,bmt,BMCHAIN
-bnb48-club-token,koge,KOGE
 bnbback,bnbback,BNBBack
 bnb-bank,bbk,BNB Bank
 bnb-diamond,bnbd,BNB Diamond
-bnbpot,bnbp,BNBPot
 bnbtiger,bnbtiger,BNB Tiger Inu
 bnext-b3x,b3x,Bnext B3X
 bnktothefuture,bft,BnkToTheFuture
@@ -1349,13 +1329,13 @@ bobo-coin,bobo,BOBO Coin
 bobs_repair,bob,Bob's Repair
 bob-token,bob,BOB Token
 bocachica,chica,BocaChica
+bocoin,boc,BOCOIN
 boda-token,bodav2,BODA
 bodrumspor-fan-token,bdrm,Bodrumspor Fan Token
 body-ai,bait,Body Ai
 bogdanoff,bog,Bogdanoff
 bogged-finance,bog,Bogged Finance
 boid,boid,Boid
-boji,boji,BOJI
 boku,boku,Boryoku Dragonz
 bold-point,bpt,Bold Point
 bole-token,bole,Boleld
@@ -1404,7 +1384,6 @@ boring-protocol,bop,Boring Protocol
 bosagora,boa,BOSagora
 boson-protocol,boson,Boson Protocol
 boss,boss,Boss
-bossdao,boss,BossDao
 bossswap,boss,Boss Swap
 bostrom,boot,Bostrom
 botopiafinance,btop,BotopiaFinance
@@ -1481,7 +1460,6 @@ buff-doge-coin,dogecoin,Buff Doge Coin
 buffedshiba,bshib,BuffedShiba
 buff-samo,bsamo,Buff Samo
 buffswap,buffs,BuffSwap
-bugg-finance,bugg,BUGG Finance
 buhund,buh,Buhund
 build,build,BUILD
 buildup,bup,BuildUp
@@ -1510,7 +1488,6 @@ burency,buy,Burency
 burger-swap,burger,BurgerCities
 burn,burn,BURN
 burp,burp,Burp
-burrito-boyz-floor-index,burr,Burrito Boyz Floor Index
 burrow,brrr,Burrow
 bursaspor-fan-token,tmsh,Bursaspor Fan Token
 busd-plenty-bridge,busd.e,BUSD (Plenty Bridge)
@@ -1527,6 +1504,7 @@ b-watch-box,box,B.watch Box
 bxh,bxh,BXH
 byepix,epix,Byepix
 byld,byld,bYLD
+bysl,bysl,bYSL
 byteball,gbyte,Obyte
 bytecoin,bcn,Bytecoin
 byteex,bx,ByteEx
@@ -1550,12 +1528,9 @@ calaxy,clxy,Calaxy
 calicoin,cali,CaliCoin
 callisto,clo,Callisto Network
 calo-app,calo,Calo
-calo-fit,fit,Calo FIT
 calorie,cal,FitBurn
 calvaria-doe,ria,Calvaria: DoE
-camelcoin,cml,Camelcoin
 camelot-token,grail,Camelot Token
-camp,camp,Camp
 canadian-inuit-dog-2,cadinu,Canadian Inuit Dog
 canary,cnr,Canary
 canary-dollar,cand,Canary Dollar
@@ -1624,7 +1599,6 @@ cat,cat,Kitty Finance CAT
 catalina-whales-index,whales,Catalina Whales Index
 catapult,atd,A2DAO
 catbonk,cabo,Catbonk
-catboy-2,catboy,CatBoy
 cat-cat-token,cat,Cat
 catceo,catceo,CATCEO
 catchy,catchy,Catchy
@@ -1706,6 +1680,7 @@ cfl365-finance,cfl365,CFL365 Finance
 cfx-quantum,cfxq,CFX Quantum
 chad-coin,chad,Chad Coin
 chain-2,xcn,Onyxcoin
+chainback,archive,Chainback
 chainbing,cbg,Chainbing
 chaincade,chaincade,ChainCade
 chainflix,cfxt,Chainflix
@@ -1754,7 +1729,6 @@ cheems-token,cheems,Cheems Token
 cheersland,cheers,CheersLand
 cheesecakeswap,ccake,CheesecakeSwap
 cheese-swap,cheese,Cheese Swap
-chellitcoin,chlt,Chellitcoin
 cheqd-network,cheq,CHEQD Network
 cherish,chc,Cherish
 cherrylend,chry,CherryLend
@@ -1771,7 +1745,6 @@ chihiro-inu,chiro,Chihiro Inu
 chihuahua,hua,Chihuahua
 chihuahuasol,chih,ChihuahuaSol
 chihuahua-token,huahua,Chihuahua Chain
-chihuahua-token-19fcd0de-eb4d-4fd7-bc4a-a202247dfdbb,chh,Chihuahua Token
 chikincoin,ckc,ChikinCoin
 chikn-egg,egg,Chikn Egg
 chikn-feed,feed,chikn feed
@@ -1813,9 +1786,7 @@ cigarette-token,cig,Cigarette
 cindicator,cnd,Cindicator
 cindrum,cind,Cindrum
 cinnamoon,cimo,Cinnamoon
-cino-games,cino,Cino Token
 cipher-2,cpr,CIPHER
-circlepod,cpx,Circlepod
 circleswap,cir,CircleSwap
 circuits-of-value,coval,Circuits of Value
 cirquity,cirq,Cirquity
@@ -1842,20 +1813,17 @@ clearcryptos,ccx,ClearCryptos
 cleardao,clh,ClearDAO
 clearpoll,poll,ClearPoll
 clearpool,cpool,Clearpool
-clear-water,$clear,Clear Water
 clever-token,clev,CLever
+clever-usd,clevusd,CLever USD
 climb-token-finance,climb,Climb Token Finance
 clinq-gold-token,cgt,Clinq.Gold Token
 clintex-cti,cti,ClinTex CTi
 clips,clips,Clips
 cliq,ct,CLIQ
 cloakcoin,cloak,Cloakcoin
-cloak-coin,cloak,Cloak Coin
-cloudbric,clbk,Cloudbric
 cloudchat,cc,CloudChat
 cloudname,cname,Cloudname
 cloud-pet,cpet,Cloud Pet
-cloudtx,cloud,CloudTx
 cloutcontracts,ccs,CloutContracts
 clover-finance,clv,Clover Finance
 clown-pepe,honk,Clown Pepe
@@ -1875,7 +1843,7 @@ cobak-token,cbk,Cobak
 coban,coban,COBAN
 cockapoo,cpoo,Cockapoo
 cocktailbar,coc,cocktailbar.finance
-cocos-bcx,cocos,COCOS BCX
+cocos-bcx,combo,COMBO
 codex,cdex,Codex
 coffin-finance,coffin,Coffin Finance
 cofix,cofi,CoFiX
@@ -1885,7 +1853,6 @@ cogiverse,cogi,9D NFT
 coin98,c98,Coin98
 coin98-dollar,cusd,Coin98 Dollar
 coinalpha,alp,CoinAlpha
-coin-artist,coin,Coin Artist
 coinary-token,cyt,Coinary
 coinbase-tokenized-stock-defichain,dcoin,Coinbase Tokenized Stock Defichain
 coinbase-wrapped-staked-eth,cbeth,Coinbase Wrapped Staked ETH
@@ -1917,7 +1884,6 @@ coinsbit-token,cnb,Coinsbit Token
 coinscan,scan,CoinScan
 coinscope,coinscope,Coinscope
 coinspaid,cpd,CoinsPaid
-coinstox,csx,Coinstox
 coinwealth,cnw,CoinWealth
 coinweb,cweb,Coinweb
 coinwind,cow,CoinWind
@@ -1940,7 +1906,6 @@ colossuscoinxt,colx,ColossusXT
 colr-coin,$colr,colR Coin
 comb-finance,comb,Comb Finance
 comdex,cmdx,COMDEX
-communique,cmq,Communique
 communis,com,Communis
 community-business-token,cbt,Community Business Token
 communitytoken,ct,Cojam
@@ -2001,6 +1966,7 @@ cookiesale,cookie,CookieSale
 cookies-protocol,cp,Cookies Protocol
 coolmining,cooha,CoolMining
 cool-vault-nftx,cool,COOL Vault (NFTX)
+coorest,crst,Coorest
 cope,cope,Cope
 cope-coin,cope,Cope Coin
 cope-token,cope,Cope Token
@@ -2060,7 +2026,6 @@ cracle,cra,Cracle
 cradle-of-sins,cos,Cradle of Sins
 crafting-finance,crf,Crafting Finance
 cramer-coin,$cramer,Cramer Coin
-cranx-chain,granx,GranX Chain
 cratos,crts,Cratos
 crave,crave,Crave
 crazy-bunny,crazybunny,Crazy Bunny
@@ -2168,11 +2133,9 @@ cryptocean,cron,Cryptocean
 crypto-classic,crc,Crypto Classic
 cryptocoinpay,ccp,CryptoCoinPay
 crypto-com-chain,cro,Cronos
-crypto-development-services,cds,Crypto Development Services
 cryptodrop,juice,CryptoDrop
 crypto-emergency,cem,Crypto Emergency
 cryptoexpress,xpress,CryptoXpress
-cryptofi,cfi,Cryptofi
 crypto-fight-club,fight,Crypto Fight Club
 cryptoflow,cfl,Cryptoflow
 cryptofranc,xchf,CryptoFranc
@@ -2244,7 +2207,6 @@ csr,csr,CSR
 ctez,ctez,Ctez
 cthulhu-finance,cth,Cthulhu Finance
 ctomorrow-platform,ctp,Ctomorrow Platform
-cube,itamcube,CUBE
 cube-intelligence,auto,Cube Intelligence
 cub-finance,cub,Cub Finance
 cubiex-power,cbix-p,Cubiex Power
@@ -2274,6 +2236,7 @@ cut-it-off,cut,Cut It Off
 cvault-finance,core,cVault.finance
 cvnx,cvnx,CVNX
 cvshots,cvshot,CVSHOTS
+cyber-arena,cat,Cyber Arena
 cyberdragon-gold,gold,CyberDragon Gold
 cyberfi,cfi,CyberFi
 cyberfm,cyfm,CyberFM
@@ -2362,7 +2325,7 @@ datamine,dam,Datamine
 dav,dav,DAV Network
 davidcoin,dc,DavidCoin
 davis-cup-fan-token,davis,Davis Cup Fan Token
-davos-protocol,davos,Davos
+davos-protocol,dusd,Davos Protocol
 dawg,dawg,DAWG
 dawin-token,dwt,DaWin Token
 dawn-protocol,dawn,Dawn Protocol
@@ -2419,7 +2382,6 @@ decredit,cdtc,DeCredit
 decred-next,dcrn,Decred-Next
 decubate,dcb,Decubate
 ded,ded,DED
-deep-blue-sea,dbea,Deep Blue Sea
 deepbrain-chain,dbc,DeepBrain Chain
 deeper-network,dpr,Deeper Network
 deeponion,onion,DeepOnion
@@ -2462,7 +2424,6 @@ definity,defx,DeFinity
 defipie,pie,DeFiPie
 defiplaza,dfp2,DefiPlaza
 defipulse-index,dpi,DeFi Pulse Index
-defire,cwap,DeFIRE
 defi-shopping-stake,dss,Defi Shopping Stake
 defis-network,dfs,Defis Network
 defistarter,dfi,DfiStarter
@@ -2555,7 +2516,6 @@ dexbet,dxb,Dexbet
 dexbrowser,bro,DexBrowser
 dexe,dexe,DeXe
 dexfin,dxf,Dexfin
-dexfolio,dexf,Dexfolio
 dex-game,dxgm,DexGame
 dexioprotocol-v2,dexi,Dexioprotocol
 dexira,dex,dexIRA
@@ -2590,7 +2550,6 @@ diamond,dmd,Diamond
 diamond-boyz-coin,dbz,Diamond Boyz Coin
 diamond-coin,diamond,Diamond Coin
 diamond-launch,dlc,Diamond Launch
-diamond-love,love,Diamond Love
 diamond-xrpl,diamond,Diamond XRPL
 dibs-share,dshare,Dibs Share
 dice-kingdom,dk,Dice Kingdom
@@ -2598,7 +2557,6 @@ die-protocol,die,Die Protocol
 diffusion,diff,Diffusion
 dig-chain,dig,Dig Chain
 digg,digg,DIGG
-digible,digi,Digible
 digibyte,dgb,DigiByte
 digichain,digichain,Digichain Coin
 digidinar-token,ddrt,DigiDinar Token
@@ -2621,7 +2579,6 @@ digital-ticks,dtx,Digital Ticks
 digital-trip-advisor,dta,Digital Trip Advisor
 digitex-futures-exchange,dgtx,Digitex
 digits-dao,digits,Digits DAO
-digixdao,dgd,DigixDAO
 digix-gold,dgx,Digix Gold
 dignity-gold,digau,Dignity Gold
 dike,dike,Dike
@@ -2657,6 +2614,7 @@ dmarket,dmt,DMarket
 dmd,dmd,DMD
 dmm-governance,dmg,DMM: Governance
 dmt-token,dmt,DMT
+dmx,dmx,DMX
 dmz-token,dmz,DMZ
 dnaxcat,dxct,DNAxCAT
 dobermann,dobe,Dobermann
@@ -2765,7 +2723,6 @@ doren,dre,DoRen
 dos-chain,dos,DOS Chain
 dose-token,dose,DOSE
 dos-network,dos,DOS Network
-dot-dot-finance,ddd,Dot Dot Finance
 dot-finance,pink,Dot Finance
 dotlab,dtl,Dotlab
 dotmoovs,moov,dotmoovs
@@ -2790,7 +2747,6 @@ dracula,drc,Dracula
 draggable-aktionariat-ag,daks,Draggable Aktionariat AG
 dragoma,dma,Dragoma
 dragon-arena,dra,Dragon Arena
-dragonbite,bite,DragonBite
 dragonchain,drgn,Dragonchain
 dragon-crypto-argenti,dcar,Dragon Crypto Argenti
 dragon-crypto-aurum,dcau,Dragon Crypto Aurum
@@ -2878,10 +2834,8 @@ dyor-token-2,dyor,DYOR Token
 dystopia,dyst,Dystopia
 dyzilla,dyzilla,DYZilla
 eaglecoin-2,elc,EagleCoin
-eagle-mining-network,egon,EAGLE MINING NETWORK
 eagonswap-token,eagon,EagonSwap
 earndefi,edc,EarnDeFi
-earnguild,earn,EarnGuild
 earnx-v2,earnx,EarnX V2
 earnzcoin,erz,EarnzCoin
 earthbyt,ebyt,EarthByt
@@ -2945,7 +2899,6 @@ egretia,egt,Egretia
 eg-token,eg,EG Token
 ehash,ehash,EHash
 ehive,ehive,eHive
-eifi-finance,eifi,EIFI Finance
 eiichiro-oda,oda,Odasea
 eiichiro-oda-inu,oda,Eiichiro Oda Inu
 einsteinium,emc2,Einsteinium
@@ -3024,6 +2977,7 @@ enegra,egx,Enegra
 energi,nrg,Energi
 energi-dollar,usde,Energi Dollar
 energo,tsl,Tesla TSL
+energreen,egrn,Energreen
 energy8,e8,Energy8
 energy-efficient-mortgage-tokenized-stock-defichain,deem,iShares MSCI Emerging Markets ETF Defichain
 energyfi,eft,Energyfi
@@ -3073,7 +3027,6 @@ era-swap-token,es,Era Swap
 ergo,erg,Ergo
 erica-social-token,est,Erica Social Token
 eris-amplified-luna,ampluna,Eris Amplified Luna
-eron,eron,ERON
 ertha,ertha,Ertha
 erth-point,erth,Erth Point
 erugo-world-coin,ewc,Erugo World Coin
@@ -3108,7 +3061,6 @@ ether-1,etho,Etho Protocol
 etherconnect,ecc,Etherconnect
 ethereans,non,NONbeta
 ethereum,eth,Ethereum
-ethereum-cash,ecash,Ethereum Cash
 ethereum-classic,etc,Ethereum Classic
 ethereumfair,ethf,EthereumFair
 ethereummax,emax,EthereumMax
@@ -3141,7 +3093,6 @@ ethlend,lend,Aave [OLD]
 ethos,vgx,Voyager VGX
 ethos-reserve-note,ern,Ethos Reserve Note
 ethpad,ethpad,ETHPad
-eth-shiba,ethshib,Eth Shiba
 ethst-governance-token,et,ETHST Governance
 ethtez,ethtz,ETHtez
 ethup,ethup,ETHUP
@@ -3178,7 +3129,6 @@ everipedia,iq,IQ
 everreflect,evrf,EverReflect
 everrise,rise,EverRise
 eversafu,eversafu,EverSAFU
-eversafuv2,es2,EverSAFUv2
 everscale,ever,Everscale
 everstart,start,EverStart
 everton-fan-token,efc,Everton Fan Token
@@ -3261,7 +3211,6 @@ fantom-maker,fame,Fantom Maker
 fantom-oasis,ftmo,Fantom Oasis
 fantomstarter,fs,FantomStarter
 fantom-usd,fusd,Fantom USD
-fanverse-token,ft,Fanverse Token
 fanzee-token,fnz,Fanzee Token
 fanzy,fx1,FANZY
 faraland,fara,FaraLand
@@ -3278,7 +3227,6 @@ fat-cat,fatcat,FAT CAT
 fathom,$fathom,Fathom
 fatih-karagumruk-sk-fan-token,fksk,Fatih Karagümrük SK Fan Token
 favor,favor,Favor
-fayre,fayre,Fayre
 fbomb,bomb,Fantom Bomb
 fc-barcelona-fan-token,bar,FC Barcelona Fan Token
 fc-porto,porto,FC Porto
@@ -3316,7 +3264,6 @@ fidira,fid,Fidira
 fidu,fidu,Fidu
 fief,fief,Fief
 fiero,fiero,Fiero
-fiftyonefifty,fifty,FIFTYONEFIFTY
 fight-of-the-ages,fota,Fight Of The Ages
 fight-out,fght,Fight Out
 fight-win-ai,fwin-ai,Fight Win AI
@@ -3330,6 +3277,7 @@ fileshare-platform,fsc,Fileshare Platform
 filestar,star,FileStar
 filipcoin,fcp,Filipcoin
 filmcredits,film,FILMCredits
+fina,fina,Fina
 final-frontier,frnt,Final Frontier
 finance-ai,financeai,Finance AI
 finance-blocks,fbx,Finance Blocks
@@ -3368,8 +3316,6 @@ fitmax,fitm,FitMax
 fitmint,fitt,Fitmint
 fitr-metaverse-token,fmt,FitR Metaverse Token
 fix00,fix00,Fix00
-flag-media,flag,Flag Media
-flag-network,flag,Flag Network
 flair-dex,fldx,Flair Dex
 flamengo-fan-token,mengo,Flamengo Fan Token
 flame-protocol,flame,Flame Protocol
@@ -3380,7 +3326,6 @@ flare-networks,flr,Flare
 flare-token,1flr,Flare Token
 flash-stake,flash,Flashstake
 flash-token,flash,Flash Loans
-flash-token-2,flash,Flash
 flatqube,qube,FlatQube
 flex-coin,flex,FLEX Coin
 flexmeme,flex,FlexMeme
@@ -3439,7 +3384,6 @@ fodl-finance,fodl,Fodl Finance
 fofo-token,fofo,FOFO Token
 foho-coin,foho,Foho Coin
 foincoin,foin,Foin
-folder-protocol,fol,Folder Protocol
 follow-token,folo,Alpha Impact
 fomobsc,fomo,FomoBSC
 fomo-eth,fomo,Fomo Eth
@@ -3450,7 +3394,6 @@ fonzy,fonzy,Fonzy
 food-bank,food,Food Bank
 foodchain-global,food,FoodChain Global
 football-coin,xfc,Football Coin
-football-decentralized,fbd,Football Decentralized
 footballfanapp,fnc,FanCoin®
 footballstars,fts,FootballStars
 football-world-community,fwc,Football World Community
@@ -3524,6 +3467,7 @@ friendz,fdz,Friendz
 fringe-finance,frin,Fringe Finance
 frog-ceo,frog ceo,FROG CEO
 froge-finance,frogex,FrogeX
+froggies-token-2,frgst,Froggies
 frog-inu,fgi,Frog Inu
 frogswap,frog,FrogSwap
 froki,froki,Froki
@@ -3597,7 +3541,6 @@ galaxycoin,galaxy,GalaxyCoin
 galaxy-essential,gxe,Galaxy Essential
 galaxy-fight-club,gcoin,Galaxy Fight Club
 galaxy-finance-glf,glf,Galaxy Finance GLF
-galaxy-heroes-coin,ghc,Galaxy Heroes Coin [OLD]
 galaxy-survivor,glxy,Galaxy Survivor
 galaxy-villains,gvc,Galaxy Villains
 galaxy-war,gwt,Galaxy War
@@ -3615,7 +3558,6 @@ game-fantasy-token,gft,Game Fantasy
 gamefi,gafi,GameFi
 gamefi-token,gfi,GameFi Protocol
 gameflip,flp,Gameflip
-gameguru,ggt,GameGuru
 gameology,gmy,Gameology
 gamer,gmr,GAMER
 gamer-arena,gau,Gamer Arena
@@ -3656,7 +3598,8 @@ gatechain-token,gt,Gate
 gatenet,gate,GATENet
 gateway-protocol,gwp,Gateway Protocol
 gather,gth,Gather
-gatsby-inu-2,gatsby,Gatsby Inu
+gatsby-inu-2,gatsby,Gatsby Inu (OLD)
+gatsby-inu-new,gatsby,Gatsby Inu
 gax-liquidity-token-reward,gltr,GAX Liquidity Token Reward
 gazetv,gaze,GazeTV
 gaziantep-fk-fan-token,gfk,Gaziantep FK Fan Token
@@ -3726,6 +3669,7 @@ get-token,get,GET Protocol
 geuro,geuro,GEURO
 geyser,gysr,Geyser
 geysercoin,gsr,GeyserCoin
+ggbond,ggbond,GGbond
 ggtkn,ggtkn,GGTKN
 gg-token,ggtk,GG
 ghast,gha,Ghast
@@ -3795,7 +3739,6 @@ gnft,gnft,GNFT
 gnome,$gnome,GNOME
 gnosis,gno,Gnosis
 gny,gny,GNY
-go2e-token,gte,GO2E GTE
 goal-token,goal,GOAL Token
 goat-coin,goat,Goat Coin
 gobi-labs,gobi,Gobi Labs
@@ -3838,6 +3781,7 @@ goldkash,xgk,GoldKash
 goldminer,gm,GoldMiner
 gold-mining-members,gmm,Gold Mining Members
 goldmint,mntp,Goldmint
+goldpesa-option,gpo,GoldPesa Option
 gold-pieces,gp,gold pieces
 gold-retriever,gldn,Gold Retriever
 gold-secured-currency,gsx,Gold Secured Currency
@@ -4056,12 +4000,10 @@ hectagon,hecta,Hectagon
 hector-dao,hec,Hector Network
 hedera-hashgraph,hbar,Hedera
 hedgehog,hedgehog,Hedgehog
-hedgepay,hpay,HedgePay
 hedge-protocol,hdg,Hedge Protocol
 hedget,hget,Hedget
 hedgetrade,hedg,HedgeTrade
 hedge-usd,ush,Hedge USD
-hedpay,hdp.ф,HEdpAY
 hedron,hdrn,Hedron
 hegic,hegic,Hegic
 hegic-yvault,yvhegic,HEGIC yVault
@@ -4107,16 +4049,15 @@ heroestd-cgc,cgc,HeroesTD CGC
 herofi,heroegg,HeroFi
 herofi-token-2,rofi,HeroFi ROFI
 heropark,hp,HeroPark
-hertz-network,htz,Hertz Network
 heruka-tsangnyon,tsangnyon,HERUKA TSANGNYON
 herum,ram,Herum
 hest-stake,hse,Hest stake
 hex,hex,HEX
 hex-ethw,hex,HEX ETHW
-hey,hey,Hey
 heyflokiai,a2e,Hey Floki Ai
 hey-reborn-new,rb,Hey Reborn [NEW]
 hiazuki,hiazuki,hiAZUKI
+hibakc,hibakc,hiBAKC
 hibayc,hibayc,hiBAYC
 hibeanz,hibeanz,hiBEANZ
 hibiki-finance,hibiki,Hibiki Finance
@@ -4181,6 +4122,7 @@ hoge-finance,hoge,Hoge Finance
 hoichi,hoichi,Hoichi
 hokkaido-inu-30bdfab6-dfb9-4fc0-b3c3-02bffe162ee4,hoka,Hokkaido Inu
 hokkaidu-inu,hokk,HOKK Finance
+hold-7b8a0903-0aac-4ae9-b170-804d42956929,hold,HOLD
 holdr,hldr,Holdr
 hold-vip,hold,Hold VIP
 hollaex-token,xht,HollaEx
@@ -4209,7 +4151,7 @@ honor-world-token,hwt,Honor World Token
 hooked-protocol,hook,Hooked Protocol
 hoop,hoop,Primal Hoop
 hoot,hoot,Hoot
-hopers-io,hopers,HOPERS
+hopers-io,hopers,Hopers
 hoppers-game,fly,Hoppers Game
 hop-protocol,hop,Hop Protocol
 hoppy,hop,HOPPY
@@ -4232,7 +4174,6 @@ hourglass,wait,Hourglass
 houston-token,hou,Houston Token
 howdoo,udoo,Hyprr
 howl-city,hwl,Howl City
-hrdgcoin,hrdg,HRDGCOIN
 hshare,hc,HyperCash
 hsuite,hsuite,HbarSuite
 htm,htm,HTM
@@ -4295,7 +4236,6 @@ hydraverse,hdv,Hydraverse
 hydro,hydro,Hydro
 hymnode,hnt,Hymnode
 hyper-2,hyper,Hyper
-hyperalloy,alloy,HyperAlloy
 hypercent,hype,Hypercent
 hyperchainx,hyper,HyperChainX
 hypercomic,hyco,HYPERCOMIC
@@ -4360,14 +4300,12 @@ iethereum,ieth,iEthereum
 iexec-rlc,rlc,iExec RLC
 ifarm,ifarm,iFARM
 ifortune,ifc,iFortune
-iftoken,ift,IFT
 ig-gold,igg,IG Gold
 ignis,ignis,Ignis
 ignore-fud,4token,Ignore Fud
 iguverse,igup,IguVerse IGUP
 iguverse-igu,igu,IguVerse IGU
 iht-real-estate-protocol,iht,IHT Real Estate Protocol
-iinjaz,ijz,iinjaz
 ijascoin,ijc,IjasCoin
 ikolf,ikolf,IKOLF
 ilcapo,capo,ILCAPO
@@ -4415,14 +4353,12 @@ indorse,ind,Indorse
 inery,$inr,Inery
 infam,inf,Infam
 infiblue-world,monie,Infiblue World
-infinite-arcade-tic,tic,Infinite Arcade TIC
 infinitee,inftee,Infinitee
 infinite-launch,ila,Infinite Launch
 infinitorr,torr,InfiniTORR
 infinity-angel,ing,Infinity Games
 infinity-arena,inaz,Infinity Arena
 infinity-box,ibox,Infinity Box
-infinity-esaham,infs,Infinity Esaham
 infinity-pad-2,ipad,Infinity PAD
 infinity-protocol,infinity,Infinity Protocol
 infinity-rocket-token,irt,Infinity Rocket
@@ -4506,7 +4442,6 @@ invoke,iv,Invoker
 invox-finance,invox,Invox Finance
 inx-token-2,inx,INX Token
 iobusd,iobusd,ioBUSD
-iocoin,ioc,I/O Coin
 ioeth,ioeth,ioETH
 ioex,ioex,ioeX
 ioi-token,ioi,IOI
@@ -4536,7 +4471,6 @@ iris-network,iris,IRISnet
 iris-token-2,iris,Iris
 iron-bank,ib,Iron Bank
 iron-bank-euro,ibeur,Iron Bank EUR
-iron-bank-gbp,ibgbp,Iron Bank GBP
 iron-bsc,iron,Iron BSC
 iron-finance,ice,Iron Finance
 iron-fish,iron,Iron Fish
@@ -4564,7 +4498,6 @@ itheum,itheum,Itheum
 itsbloc,itsb,ITSBLOC
 iusd,iusd,iUSD
 iustitia-coin,ius,Iustitia Coin
-ivar-coin,ivar,Ivar Coin
 ivogel,ivg,IVOGEL
 i-will-poop-it-nft,shit,I will poop it NFT
 ixcoin,ixc,Ixcoin
@@ -4574,7 +4507,6 @@ ixo,ixo,IXO
 ix-swap,ixs,IX Swap
 ix-token,ixt,IX
 iykyk,iykyk,IYKYK
-ize,ize,IZE
 izumi-bond-usd,iusd,iZUMi Bond USD
 izumi-finance,izi,iZUMi Finance
 jackal-protocol,jkl,Jackal Protocol
@@ -4597,7 +4529,6 @@ jarvis-synthetic-swiss-franc,jchf,Jarvis Synthetic Swiss Franc
 jasan-wellness,jw,Jasan Wellness
 jaseonmun,jsm,Joseon-Mun
 jasmycoin,jasmy,JasmyCoin
-javascript-token,js,JavaScript
 jax-network,wjxn,Jax.Network
 jaypegggers,jay,Jaypeggers
 jd-coin,jdc,JD Coin
@@ -4612,9 +4543,11 @@ jen-coin,jen,JEN COIN
 jenny-metaverse-dao-token,ujenny,Jenny DAO V1
 jerry-inu,jerry,Jerry Inu
 jesus-coin,jesus,Jesus Coin
+jesuscoin-2,jesus,JesusCoin
 jet,jet,JET
 jetcoin,jet,Jetcoin
 jetoken,jets,JeToken
+jetset,jts,Jetset
 jfin-coin,jfin,JFIN Coin
 jigen,jig,Jigen
 jigstack,stak,Jigstack
@@ -4634,7 +4567,6 @@ jomon-shiba,jshiba,Jomon Shiba
 jones-dao,jones,Jones DAO
 jones-glp,jglp,Jones GLP
 jones-usdc,jusdc,Jones USDC
-jot-art,jot,Jot Art
 joulecoin,xjo,Joulecoin
 journart,jart,JournArt
 joystick1,joy,Joystick
@@ -4741,7 +4673,6 @@ keep-network,keep,Keep Network
 keeps-coin,kverse,KEEPs Coin
 keeshond,$ksh,Keeshond
 kei-finance,kei,Kei Finance
-keisuke-inu,$kei,Keisuke Inu
 kek,keke,KEK
 kekchain,kek,KeKChain
 kek-guru,kek,Kek Guru
@@ -4751,6 +4682,7 @@ kekya,kekya,Kekya
 kelvpn,kel,KelVPN
 kemacoin,kema,KemaCoin
 kennel-locker,kennel,Kennel
+kenshi,kenshi,Kenshi
 kephi-gallery,kphi,Kephi Gallery
 kepple,kpl,Kepple
 kermit,kermit,Kermit Finance
@@ -4834,13 +4766,11 @@ knights-peasants,knight,Knights & Peasants
 knightswap,knight,KnightSwap
 knight-war-spirits,kws,Knight War Spirits
 knit-finance,kft,Knit Finance
-knoxfs,kfx,KnoxFS
 koacombat,koacombat,KoaCombat
 koakuma,kkma,Koakuma
 kobocoin,kobo,Kobocoin
 kocaelispor-fan-token,kstt,Kocaelispor Fan Token
 kochi-ken,kochi,Kochi Ken
-kodachi-token,kodachi,Kodachi Token
 koda-finance,koda,Koda Cryptocurrency
 kodi,kodi,KODI
 kogecoin,kogecoin,KogeCoin
@@ -4861,7 +4791,6 @@ kommunitas,kom,Kommunitas
 komodo,kmd,Komodo
 kompete,kompete,KOMPETE Token
 kondux-v2,kndx,KONDUX
-konjungate,konj,KONJUNGATE
 konnect,kct,Konnect
 konomi-network,kono,Konomi Network
 konpay,kon,KonPay
@@ -4933,12 +4862,12 @@ lakeviewmeta,lvm,LakeViewMeta
 lambda,lamb,Lambda
 lambda-markets,lmda,Lambda Markets
 lambo-0fcbf0f7-1a8f-470d-ba09-797d5e95d836,lambo,$LAMBO
+lamden,tau,Lamden
 lanacoin,lana,LanaCoin
 lance-coin,lce,Lance Coin
 lanceria,lanc,Lanceria
 landboard,land,Landboard
 land-of-conquest-slg,slg,Shattered Legion
-land-of-fantasy,lof,Land of Fantasy
 landshare,land,Landshare
 landworld,lwd,Landworld
 lapislazuli,lilli,Lapislazuli
@@ -5008,7 +4937,6 @@ letcoinshop,lcs,LetCoinShop
 lethean,lthn,Lethean
 lets-go-brandon,letsgo,Lets Go Brandon
 levante-ud-fan-token,lev,Levante U.D. Fan Token
-leve-invest,leve,Leve Invest
 level,lvl,Level
 levelapp,lvl,LevelApp
 levelg,levelg,LEVELG
@@ -5055,6 +4983,7 @@ lightningcash-gold,lnc,LightningCash
 lightning-protocol,light,Lightning Protocol
 lightyears,year,Lightyears
 likecoin,like,LikeCoin
+lilai,lilai,LilAI
 lil-floki,lilfloki,Lil Floki
 lilly-finance,ly,Lilly Token
 limestone-network,limex,Limestone Network
@@ -5126,7 +5055,6 @@ lithosphere,litho,Lithosphere
 litlab-games,litt,LitLab Games
 little-angry-bunny-v2,lab-v2,Little Angry Bunny v2
 little-bunny-rocket,lbr,Little Bunny Rocket
-littleghosts-ectoplasm,ecto,LittleGhosts Ectoplasm
 littleinu,linu,LittleInu
 little-rabbit-v2,ltrbt,Little Rabbit V2
 little-ugly-duck,lud,Little Ugly Duck
@@ -5170,6 +5098,7 @@ loot,loot,Lootex
 loot-token,loot,Loot
 lopo,lopo,LOPO
 lord-of-dragons,logt,Lord of Dragons
+lord-of-dragons-reward-token,lort,Lord of Dragons Reward Token
 lord-of-power-golden-eagle,gde,Lord of Power Golden Eagle
 lords,lords,LORDS
 lordtoken,ltt,LordToken
@@ -5181,13 +5110,13 @@ lotto-arbitrum,lotto,Lotto Arbitrum
 lot-trade,lott,LOT.TRADE
 loud-market,loud,Loud Market
 loungem,lzm,LoungeM
-lovechain,lov,LoveChain
 love-hate-inu,lhinu,Love Hate Inu
 lovelace-world,lace,Lovelace World
 lovely-inu-finance,lovely,Lovely Inu finance
 lovely-swap-token,lst,Lovely Swap
 lovepot-token,love,LovePot
 lox-network,lox,Lox Network
+loyalty-labs,loyal,Loyalty Labs
 lp-3pool-curve,3crv,LP 3pool Curve
 lp-finance,lpfi,LP Finance DAO
 lp-renbtc-curve,renbtccurve,LP renBTC Curve
@@ -5204,7 +5133,6 @@ lucha,lucha,Lucha
 lucidao,lcd,Lucidao
 luck2earn,luck,Luck2Earn
 lucky-block,lblock,Lucky Block
-lucky-cats,katz,Lucky Cats
 lucky-lion,lucky,Lucky Lion
 lucky-property-development-invest,lpdi,Lucky Property Development Invest
 lucky-roo,roo,Lucky Roo
@@ -5268,7 +5196,6 @@ lyra-finance,lyra,Lyra Finance
 m,m,M
 m2,m2,M2
 macaronswap,mcrn,MacaronSwap
-machinecoin,mac,Machinecoin
 madagascar-token,$time,Madagascar
 madai,madai,Morpho-Aave Dai Stablecoin
 mad-bucks,mad,MAD Bucks
@@ -5286,7 +5213,6 @@ magic-bag,felix,Magic Bag
 magic-beasties,bsts,Magic Beasties
 magiccraft,mcrt,MagicCraft
 magic-cube,mcc,Magic Cube Coin
-magicdoge,magicdoge,MagicDOGE
 magicglp,magicglp,MagicGLP
 magic-internet-money,mim,Magic Internet Money
 magic-oi-money,mom,Magic Oi! Money
@@ -5307,12 +5233,11 @@ maidsafecoin-token,maid,Maidsafecoin Token
 main,main,Main
 mainframe,mft,Hifi Finance [OLD]
 mainstream-for-the-underground,mftu,Mainstream For The Underground
+majo,majo,Majo
 maker,mkr,Maker
 makiswap,maki,MakiSwap
 malgo-finance,mgxg,Malgo Finance
 malinka,mlnk,Malinka
-mammoth-mmt,mmt,Mammoth MMT
-manateecoin,mtc,ManateeCoin
 manchester-city-fan-token,city,Manchester City Fan Token
 mancium,manc,Mancium
 mandala-exchange-token,mdx,Mandala Exchange
@@ -5370,7 +5295,6 @@ marutaro,maru,MaruTaro
 marvellex-classic,mlxc,Marvellex Classic
 marvelous-nfts,mnft,Marvelous NFTs
 marvin-inu,marvin,Marvin Inu
-marx,marx,MarX
 masari,msr,Masari
 mask-network,mask,Mask Network
 masq,masq,MASQ
@@ -5389,10 +5313,7 @@ material,mtrl,Material
 materium,mtrm,Materium
 math,math,MATH
 matic-aave-aave,maaave,Matic Aave Interest Bearing AAVE
-matic-aave-dai,madai,Matic Aave Interest Bearing DAI
-matic-aave-link,malink,Matic Aave Interest Bearing LINK
 matic-aave-usdc,mausdc,Matic Aave Interest Bearing USDC
-matic-aave-weth,maweth,Matic Aave Interest Bearing WETH
 matic-dai-stablecoin,dai-matic,Matic DAI Stablecoin
 matic-launchpad,maticpad,Matic Launchpad
 matic-network,matic,Polygon
@@ -5541,6 +5462,7 @@ meta,mta,mStable Governance: Meta
 meta-apes-peel,peel,Meta Apes PEEL
 metababy,baby,Metababy
 metabeat,$beat,MetaBeat
+metabet,mbet,MetaBET
 metablackout,mbt,MetaBlackout
 metabolic,mtbc,Metabolic
 metabrands,mage,MetaBrands
@@ -5555,7 +5477,6 @@ meta-dance,mdt,META DANCE
 metaderby,dby,Metaderby
 metaderby-hoof,hoof,Metaderby Hoof
 metadium,meta,Metadium
-metadoctor,medoc,MetaDoctor
 meta-doge,metadoge,Meta Doge
 metadoge-bsc,metadoge,MetaDoge BSC
 metadoge-v2,metadogev2,MetaDoge V2
@@ -5583,6 +5504,7 @@ metajuice,vcoin,Metajuice
 metakings,mtk,Metakings
 metal,mtl,Metal DAO
 metaland-gameverse,mst,Monster
+metalands,pvp,Metalands
 meta-launcher,mtla,Meta Launcher
 metal-blockchain,metal,Metal Blockchain
 metal-friends,mtls,Metal Friends
@@ -5604,7 +5526,6 @@ metanyx,metx,Metanyx
 metaoctagon,motg,MetaOctagon
 metapioneers,mpi,MetaPioneers
 metaplanet-ai,mplai,MetaPlanet AI
-metaplayers-gg,fps,MetaPlayers.gg [OLD]
 metaplex,mplx,Metaplex
 metapolitans,maps,Metapolitans
 meta-pool,meta,Meta Pool
@@ -5617,7 +5538,6 @@ metarim,rim,MetaRim
 metarix,mtrx,Metarix
 metars-genesis,mrs,Metars Genesis
 meta-ruffy,mr,MetaRuffy (MR)
-meta-ruffy-old,mr,Meta Ruffy [OLD]
 metarun,mrun,Metarun
 metasafemoon,metasfm,MetaSafeMoon
 meta-shiba,mshiba,Meta Shiba
@@ -5703,7 +5623,6 @@ milkyswap,milky,MilkySwap
 milky-token,milky,Milky
 millenniumclub,mclb,MillenniumClub Coin [OLD]
 millenniumclub-coin-new,mclb,MillenniumClub Coin [NEW]
-millennium-sapphire,msto,Millennium Sapphire
 millimeter,mm,Millimeter
 million,mm,Million
 milliondollarbaby,mdb,Make DeFi Better
@@ -5734,8 +5653,6 @@ miners-of-kadenia,mok,Miners of Kadenia
 minerva-wallet,miva,Minerva Wallet
 mines-of-dalarnia,dar,Mines of Dalarnia
 mini,mini,Mini
-minidoge,minidoge,MiniDOGE
-minifootball,minifootball,Minifootball
 miningnft,mit,MiningNFT
 minswap,min,Minswap
 mint-club,mint,Mint Club
@@ -5884,7 +5801,6 @@ mooner,mnr,Mooner
 mooney,mooney,Moon DAO
 moonfarm-finance,mfo,MoonFarm Finance
 moongame,mgt,Moongame
-mooni,mooni,Mooni
 moonienft,mny,MoonieNFT
 moonions,moonion,Moonions
 moonlana,mola,MoonLana
@@ -5899,14 +5815,12 @@ moonpot-finance,moonpot,MoonPot Finance
 moon-rabbit,aaa,Moon Rabbit
 moonrise,moonrise,MoonRise
 moonriver,movr,Moonriver
-moonrock-v2,rock,MoonRock V2
 moonscape,mscp,Moonscape
 moonsdust,moond,MoonsDust
 moonshot,moonshot,Moonshot [OLD]
 moonshots-farm,bones,Moonshots Farm
 moonstarter,mnst,MoonStarter
 moonswap,moon,MoonSwap
-moon-token,dodb,DODbase
 moon-tropica,cah,Moon Tropica
 moonwell,mfam,Moonwell Apollo
 moonwell-artemis,well,Moonwell
@@ -5997,7 +5911,6 @@ musicn,mint,MusicN
 musk-dao,musk,MUSK DAO
 musk-doge,mkd,Musk Doge
 musk-gold,musk,MUSK Gold
-musk-melon,melon,Musk Melon
 must,must,Must
 mutant-pepe,mutant,Mutant Pepe
 mute,mute,Mute
@@ -6065,9 +5978,7 @@ naruto,naruto,Naruto
 nasdacoin,nsd,Nasdacoin
 nasdex-token,nsdx,NASDEX
 natas-token,natas,NaTaS Token
-natiol,nai,Natiol
 nation3,nation,Nation3
-native-utility-token,nut,Native Utility
 natural-farm-union-protocol,nfup,Natural Farm Union Protocol
 natus-vincere-fan-token,navi,Natus Vincere Fan Token
 nav-coin,nav,Navcoin
@@ -6081,7 +5992,6 @@ nearpad,pad,Pad.Fi
 nearstarter,nstart,NEARStarter
 neblio,nebl,Neblio
 nebulas,nas,Nebulas
-neeo,neeo,NEEO
 neftipedia,nft,NEFTiPEDiA
 nefty,nefty,NeftyBlocks
 neighbourhoods,nht,Neighbourhoods
@@ -6097,9 +6007,8 @@ neocortexai,corai,NeoCortexAI
 neofi,neofi,NeoFi
 neon,neon,Neon
 neon-exchange,nex,Nash
-neonomad-finance,nni,Neonomad Finance
+neonomad-finance,nni,Neonomad
 neopin,npt,Neopin
-neorbit,safo,SAFEONE CHAIN
 neos-credits,ncr,Neos Credits
 neo-tokyo,bytes,Neo Tokyo
 neoxa,neox,Neoxa
@@ -6117,7 +6026,6 @@ nesten,nit,Nesten
 nestree,egg,Nestree
 neta,neta,NETA
 netcoin,net,Netcoin
-netcoincapital,ncc,Netcoincapital
 netflix-tokenized-stock-defichain,dnflx,Netflix Tokenized Stock Defichain
 nether,ntr,Nether
 netm,ntm,Netm
@@ -6207,10 +6115,10 @@ ngatiger,nga,NGATiger
 ngt,ngt,GoSleep NGT
 niftify,nift,Niftify
 nifty-league,nftl,Nifty League
-niftypays,nifty,NiftyPays
 nifty-token,nfty,NFTY DeFi Protocol
 nightingale-token,ngit,Nightingale Token
 nightverse-game,nvg,NightVerse Game
+nihao,nihao,Nihao
 niifi,niifi,NiiFi
 nikplace,nik,Nikplace
 nimbus-utility,nimb,Nimbus Utility
@@ -6240,6 +6148,7 @@ nkcl-classic,nkclc,NKCL Classic
 nkn,nkn,NKN
 nkyc-token,nkyc,NKYC Token
 noah-s-ark-coin,nac,Noah's Ark Coin
+noahswap,noah,NoahSwap
 noa-play,noa,NOA PLAY
 nobi,nobi,NOBI
 nodeseeds,nds,Nodeseeds
@@ -6247,6 +6156,7 @@ nodestats,ns,Nodestats
 nodetrade,mnx,Nodetrade
 nodle-network,nodl,Nodle Network
 noia-network,noia,Syntropy
+noir-phygital,noir,Noir Phygital
 noisegpt,noisegpt,noiseGPT
 noku,noku,Noku
 nole-inu,n0le,Nole Inu
@@ -6276,6 +6186,7 @@ novara-calcio-fan-token,nov,Novara Calcio Fan Token
 novawchi,vachi,NOVAWCHI
 novem-gold,nnn,Novem Gold
 novem-pro,nvm,Novem Pro
+novo-9b9480a5-9545-49c3-a999-94ec2902cedb,novo,Novo
 nowai,$nowai,NOWAI
 npick-block,npick,NPick Block
 n-protocol,n,N Protocol
@@ -6332,7 +6243,6 @@ occamx,ocx,OccamX
 oceanex,oce,OceanEX
 oceanland,oland,OceanLand
 ocean-protocol,ocean,Ocean Protocol
-oc-protocol,ocp,OC Protocol
 octaplex-network,plx,Octaplex Network
 octaspace,octa,OctaSpace
 octavus-prime,octavus,Octavus Prime
@@ -6378,7 +6288,6 @@ oikos,oks,Oikos
 oiler,oil,Oiler
 oil-token-162dc739-3b37-4da2-88a7-0d5b8e03ab14,oil,Oil Token
 oin-finance,oin,OIN Finance
-oiocoin,oioc,OIOCoin
 ojamu,oja,Ojamu
 okage-inu,okage,Okage Inu
 okaleido,oka,Okaleido
@@ -6462,6 +6371,8 @@ openanx,oax,OAX
 openbetai,openbet,OpenbetAI
 openblox,obx,OpenBlox
 opendao,sos,OpenDAO
+openeden-tbill,tbill,OpenEden TBILL
+open-exchange-token,ox,Open Exchange Token
 open-governance-token,open,OPEN Governance
 openleverage,ole,OpenLeverage
 openlive-nft,opv,OpenLive NFT
@@ -6469,7 +6380,6 @@ open-meta-trade,omt,Open Meta Trade
 openocean,ooe,OpenOcean
 open-platform,open,Open Platform
 open-proprietary-protocol,opp,Open Proprietary Protocol
-openstream-world,osw,OpenStream World
 openswap,oswap,OpenSwap
 openswap-token,openx,OpenSwap.One
 openx-locked-velo,opxvevelo,OpenX Locked Velo
@@ -6489,7 +6399,6 @@ optimus,optcm,Optimus
 optimus-ai,opti,Optimus AI
 optimus-al-bsc,optimus al,Optimus Al (BSC)
 optimus-inu,opinu,Optimus Inu
-optimus-opt,opt,Optimus OPT
 option-panda-platform,opa,Option Panda Platform
 option-room,room,OptionRoom
 opulous,opul,Opulous
@@ -6560,7 +6469,6 @@ osk,osk,OSK
 osmosis,osmo,Osmosis
 ospy,ospy,OSPY
 otcbtc-token,otb,OTCBTC
-otherdao,othr,OtherDAO
 otocash,oto,OTOCASH
 otterclam,clam,OtterClam
 ouro-governance-share,ogs,Ouro Governance Share
@@ -6580,6 +6488,7 @@ ownly,own,Ownly
 own-token,own,OWN Token
 oxai-com,oxai,OxAI.com
 oxbitcoin,0xbtc,0xBitcoin
+oxbt,oxbt,OXBT
 oxbull-solana,oxs,Oxbull Solana
 oxbull-tech-2,oxb,Oxbull Tech
 oxygen,oxy,Oxygen
@@ -6587,7 +6496,6 @@ oxymetatoken,omt,OxyMetaToken
 oxyo2,ox2,OxyO2
 ozonechain,ozone,Ozonechain
 p2p-solutions-foundation,p2ps,P2P solutions foundation
-p2p-taxi,p2ptxt,p2p taxi
 paccoin,pac,PAC Protocol
 pacific,paf,Pacific
 pack,pack,Pack
@@ -6599,7 +6507,6 @@ paid-network,paid,PAID Network
 paint,paint,MurAll
 paint-swap,brush,Paint Swap
 pakcoin,pak,Pakcoin
-palace,paa,Palace
 paladin,pal,Paladin
 palantir-tokenized-stock-defichain,dpltr,Palantir Tokenized Stock Defichain
 palette,plt,Palette
@@ -6642,6 +6549,7 @@ papa-doge,papadoge,Papa Doge
 paper-dab1cd41-029d-4207-b87f-fd98d6fe737c,$paper,$PAPER
 paper-dao,ppr,Paper DAO
 paper-fantom,paper,Paper
+papi,papi,PAPI
 pappay,pappay,Pappay
 parachute,par,Parachute
 paradigm-zero,pz,Paradigm Zero
@@ -6681,7 +6589,6 @@ paul-token,paul,PAUL
 pavia,pavia,Pavia
 paw,paw,Paw
 pawn-my-nft,pnft,Pawn My NFT
-paws-funds,paws,Paws Funds
 pawswap,paw,PAWSWAP
 pawthereum,pawth,Pawthereum
 pawtocol,upi,Pawtocol
@@ -6769,6 +6676,7 @@ pepepad,pepe,PepePAD
 pepeplay,peplay,Pepeplay
 pe-pe-pokemoon,pemon,PE PE POKEMOON
 pepe-predator,snake,Pepe Predator
+peper,peper,PEPER
 pepera,pepera,Pepera
 pepesol,pepe,PepeSol
 pepe-the-frog,pepebnb,Pepe the Frog
@@ -6785,6 +6693,7 @@ permission-coin,ask,Permission Coin
 perpetual-protocol,perp,Perpetual Protocol
 perpetual-wallet,pwt,Perpetual Wallet
 perpetuum-coin,prp,Perpetuum Coin
+per-project,per,PER Project
 perpy-finance,pry,Perpy Finance
 perry-the-bnb,perry,Perry The BNB
 perseus-fintech,prs,Perseus Fintech
@@ -6837,10 +6746,12 @@ pige-inu,pige,Pige
 pigeoncoin,pgn,Pigeoncoin
 pig-finance,pig,Pig Finance
 piggy,piggy,Piggy
+piggy-bank-2,piggy,Piggy Bank
 pig-inu,piginu,Pig Inu
 pigs-2,afp,PIGS
 pigscanfly,pork,PigsCanFly
 pikachu,pika,Pika
+pika-protocol,pika,Pika Protocol
 pikaster,mls,Metaland Shares
 pillar,plr,Pillar
 pilot,ptd,Pilot
@@ -6892,6 +6803,7 @@ plant-vs-undead-token,pvu,Plant vs Undead
 plasma-finance,ppay,Plasma Finance
 plastiks,plastik,Plastiks
 plata-network,plata,Plata Network
+platform-of-meme-coins,payu,Platform of meme coins
 platincoin,plc,PlatinCoin
 platinx,ptx,PlatinX
 plato-farm,mark,Plato Farm
@@ -6906,7 +6818,6 @@ playdapp,pla,PlayDapp
 player-2,deo,Player 2
 playermon,pym,Playermon
 playgame,pxg,PlayGame
-playground,playa,Playground
 playground-waves-floor-index,waves,Playground Waves Floor Index
 play-it-forward-dao,pif,Play It Forward DAO
 playkey,pkt,PlayKey
@@ -7030,7 +6941,6 @@ polyzap,pzap,PolyZap
 pomerium,pmr,Pomerium
 pomerium-ecosystem,pmg,Pomerium Ecosystem Token
 pom-governance,pomg,POM Governance
-pomi,pomi,Pomi
 pomo,pomo,Pomo
 pong-heroes,pong,Pong Heroes
 pontoon,toon,Pontoon
@@ -7094,6 +7004,7 @@ premia,premia,Premia
 premio,premio,Premio
 pre-retogeum,prtg,Pre-Retogeum
 presearch,pre,Presearch
+president-ron-desantis,ron,President Ron DeSantis
 pricetools,ptools,Pricetools
 primal-2,prm,Primal Network
 primal-b3099cd0-995a-4311-80d5-9c133153b38e,primal,PRIMAL
@@ -7112,13 +7023,12 @@ privapp-network,bpriva,Privapp Network
 privateum,pri,Privateum Global
 privatix,prix,Privatix
 privcy,priv,PRiVCY
-privilege,prvg,Privilege
 prizm,pzm,Prizm
+prnt,prnt,PRNT
 probably-nothing,prbly,Probably Nothing
 probinex,pbx,Probinex
 probit-exchange,prob,Probit
 professional-fighters-league-fan-token,pfl,Professional Fighters League Fan Token
-project202,p202,Project 202
 project-galaxy,gal,Galxe
 project-inverse,xiv,Planet Inverse
 projectmars,mars,ProjectMars
@@ -7183,6 +7093,7 @@ puli-inu,puli,Puli
 pulsar-coin,plsr,Pulsar Coin
 pulseai,pulse,PulseAI
 pulsebitcoin,plsb,PulseBitcoin
+pulsebitcoin-pulsechain,plsb,PulseBitcoin (PulseChain)
 pulsechain,pls,PulseChain
 pulsecrypt,plscx,PulseCrypt
 pulsedoge,pulsedoge,PulseDoge
@@ -7218,12 +7129,10 @@ pusuke-inu,pusuke,Pusuke Inu
 putincoin,put,PUTinCoin
 puzzle-swap,puzzle,Puzzle Swap
 pwrcash,pwrc,PWRCASH
-pylon-eco-token,petn,Pylon Eco Token
 pyrexcoin,gpyx,GoldenPyrex
 pyrk,pyrk,Pyrk
 pyromatic,pyro,PYROmatic
 pyrrho-defi,pyo,Pyrrho
-q2,q2,Pocketful of Quarters
 qanplatform,qanx,QANplatform
 qash,qash,QASH
 qatargrow,qatargrow,QatarGrow
@@ -7275,7 +7184,6 @@ quick-intel,quicki,Quick Intel
 quicksilver,qck,Quicksilver
 quickswap,quick,Quickswap
 quick-transfer-coin-plus,qtcc,Quick Transfer Coin Plus
-quickx-protocol,qcx,QuickX Protocol
 quidax,qdx,Quidax
 quidd,quidd,Quidd
 quid-ika,quid,Quid Ika
@@ -7428,8 +7336,6 @@ refereum,rfr,Refereum
 ref-finance,ref,Ref Finance
 refinable,fine,Refinable
 reflect-finance,rfi,reflect.finance
-reflecto,rto,Reflecto
-reflecto-usd,rusd,Reflecto USD
 reflex,rfx,Reflex
 reflexer-ungovernance-token,flx,Reflexer Ungovernance
 reftoken,ref,Ref
@@ -7445,9 +7351,7 @@ relaxable,relax,Relaxable
 relay-token,relay,Relay Chain
 release-ico-project,rel,RELEASE
 relevant,rel,Relevant
-relic,relic,Relic
 relictumpro-genesis-token,gtn,RelictumPro Genesis Token
-rematicegc,rmtx,RematicEGC
 remme,rem,Remme
 rena-finance,rena,RENA Finance
 renbtc,renbtc,renBTC
@@ -7722,7 +7626,6 @@ satin-exchange,satin,Satin Exchange
 sator,sao,Sator
 satoshi-island,stc,Satoshi Island
 satoshis-vision,sats,Satoshis Vision
-satoshiswap-2,swap,SatoshiSwap
 satozhi,satoz,Satozhi
 sats-hunters,shnt,Sats Hunters
 satt,satt,SaTT
@@ -7751,13 +7654,11 @@ scapesmania,$mania,ScapesMania
 scarab-finance,scarab,Scarab Finance
 scarcity,scx,Scarcity
 scarecrow,scare,ScareCrow
-scary-bunny,sb,Scary Bunny
 scat,cat,Scat
 s-c-corinthians-fan-token,sccp,S.C. Corinthians Fan Token
 scholarship-coin,scho,Scholarship Coin
 schrodinger,kitty dinger,Schrodinger
 schwiftai,swai,SchwiftAI
-sci-coin,sci,SCI Coin [OLD]
 sci-coin-2,sci+,SCI Coin
 scientia,scie,Scientia
 scientix,scix,Scientix
@@ -7783,11 +7684,9 @@ seamlessswap-token,seamless,SeamlessSwap
 seancecircle,seance,SeanceCircle
 seapad,spt,SeaPad
 seatlabnft,seat,SeatlabNFT
-seba,seba,Seba
 sechain,snn,SeChain
 secret,scrt,Secret
 secret-erc20,wscrt,Secret (ERC20)
-secret-finance,sefi,Secret Finance
 secret-skellies-society,$crypt,Secret Skellies Society
 secretum,ser,Secretum
 sector,sect,Sector
@@ -7797,9 +7696,7 @@ sedo-pow-token,sedo,SEDO POW
 seeded-network,seeded,Seeded Network
 seedify-fund,sfund,Seedify.fund
 seedlaunch,slt,SeedLaunch
-seedon,seon,Seedon
 seeds,seeds,Seeds
-seedswap,snft,SeedSwap
 seedswap-token,seed,SeedSwap SEED
 seedx,seedx,SEEDx
 seek-tiger,sti,Seek Tiger
@@ -7807,6 +7704,7 @@ seele,seele,Seele
 seigniorage-shares,share,Seigniorage Shares
 seiren-games-network,serg,Seiren Games Network
 sekuritance,skrt,Sekuritance
+sekuya,skuy,Sekuya
 selfbar,sbar,Selfbar
 selfkey,key,SelfKey
 self-token,self,Self Token
@@ -7814,7 +7712,6 @@ sell-token,sellc,Sell Token
 senate,senate,SENATE
 sendcrypto,sendc,SendCrypto
 sense4fit,sfit,Sense4FIT
-sensi,sensi,Sensi
 sensitrust,sets,Sensitrust
 senso,senso,SENSO
 sentiment-token,sent,Sentiment
@@ -7831,7 +7728,6 @@ serum,srm,Serum
 serum-ser,ser,Serum SER
 seth,seth,sETH
 seth2,seth2,sETH2
-setter-protocol,set,Setter Protocol
 seur,seur,sEUR
 seven-q,svq,Seven-Q
 sevilla-fan-token,sevilla,Sevilla Fan Token
@@ -7905,7 +7801,6 @@ shiba-universe,shibu,Shiba Universe
 shibavax,shibx,Shibavax
 shibaverse,verse,Shibaverse
 shibaw-inu,shibaw,ShibaW Inu
-shibazilla,shibazilla,ShibaZilla
 shibcat,shibcat,SHIBCAT
 shibceo,shibceo,ShibCEO
 shibcraft,shft,Shibcraft
@@ -7970,7 +7865,6 @@ shrooms-bb92ba08-f11f-4580-b98e-67ad3bca842e,shrooms,Shrooms
 shuts-wave,swave,shuts Wave
 shyft-network-2,shft,Shyft Network
 siacoin,sc,Siacoin
-siambitcoin,sbtc,SiamBitcoin
 siaprime-coin,scp,ScPrime
 sibcoin,sib,SIBCoin
 sicash,sic,SICash
@@ -8001,7 +7895,6 @@ simpli-finance,simpli,Simpli Finance
 simracer-coin,src,Simracer Coin
 sin-city,sin,Sinverse
 sincronix,snx,SincroniX
-singh,singh,Singh
 single-finance,single,Single Finance
 sing-token,sing,Sing
 sing-token-avalanche,sing,Sing (Avalanche)
@@ -8044,7 +7937,6 @@ small-fish-cookie,sfc,Small Fish Cookie
 smardex,sdex,SmarDex
 smart-block-chain-city,sbcc,Smart Block Chain City
 smartcash,smart,SmartCash
-smartcoin-2,smrt,SmartCoin
 smart-coin-smrtr,smrtr,SmarterCoin
 smartcredit-token,smartcredit,SmartCredit
 smart-donation-coin,sdc,Smart Donation Coin
@@ -8063,7 +7955,6 @@ smartpad-2,pad,SmartPad
 smart-reward-token,srt,Smart Reward Token
 smartshare,ssp,Smartshare
 smart-valor,valor,Smart Valor
-smart-wallet-token,swt,Smart Wallet
 smart-world-union,swu,Smart World Union
 smarty-pay,spy,Smarty Pay
 smash-cash,smash,Smash Cash
@@ -8077,8 +7968,6 @@ smol-su,su,Smol Su
 smolting-inu,smol,Smolting Inu
 smooth-love-potion,slp,Smooth Love Potion
 smoothy,smty,Smoothy
-smpcoin,smpc,SMPCOIN
-smscodes,smsct,SMSCodes
 smudge-lord,smudge,Smudge Lord
 smurfsinu,smurf,SmurfsINU
 snailbrook,snail,SnailBrook
@@ -8093,12 +7982,12 @@ snfts-seedify-nft-space,snfts,Seedify NFT Space
 snook,snk,Snook
 snowball-token,snob,Snowball
 snowbank,sb,Snowbank
-snowblossom,snow,SnowBlossom
 snowcrash-token,nora,SnowCrash
 snowswap,snow,Snowswap
 snowtomb,stomb,Snowtomb
 snowtomb-lot,slot,Snowtomb LOT
 snx-yvault,yvsnx,SNX yVault
+soakmont,skmt,Soakmont
 soba-token,soba,SOBA
 soccer-crypto,sot,Soccer Crypto
 socean-staked-sol,scnsol,Socean Staked Sol
@@ -8224,7 +8113,6 @@ soup-finance,soup,Soup Finance
 sourceless,str,Sourceless
 source-protocol,srcx,Source Protocol
 southxchange-coin,sxcc,SouthXchange Coin
-sov,sov,SOV
 sovi-token,sovi,Sovi
 sovryn,sov,Sovryn
 sowl,sowl,SOWL
@@ -8259,7 +8147,6 @@ spacey-2025,spay,SpaceY 2025
 spain-national-fan-token,snft,Spain National Football Team Fan Token
 spankchain,spank,SpankChain
 sparklab,spark,SparkLab
-sparkle-coin,sctk,Sparkle Coin
 sparkpoint,srk,SparkPoint
 sparkpoint-fuel,sfuel,SparkPoint Fuel
 sparks,spk,SparksPay
@@ -8479,7 +8366,6 @@ strikecoin,strx,StrikeX
 strip-finance,strip,Strip Finance
 strips-finance,strp,Strips Finance
 stripto,strip,Stripto
-strite,stri,Strite
 stroke-prevention-genomicdao,pcsp,Stroke-Prevention GenomicDAO
 strong,strong,Strong
 stronger,strngr,Stronger
@@ -8490,8 +8376,8 @@ strongnode,sne,StrongNode
 structure-finance,stf,Structure Finance
 strx-finance,sfi,STRX Finance
 student-coin,stc,Student Coin
+sturdy,strdy,Sturdy
 style,style,Style
-stylike-governance,styl,Stylike Governance
 stzil,stzil,stZIL
 subdao,gov,SubDAO
 substratum,sub,Substratum
@@ -8602,6 +8488,7 @@ swing,swing,Swing
 swingby,swingby,Swingby
 swing-xyz,$swing,Swing.xyz
 swipe,sxp,SXP
+swipe-token,swipe,Swipe Token
 swirltoken,swirl,SwirlToken
 swissborg,chsb,SwissBorg
 switcheo,swth,Carbon Protocol
@@ -8645,7 +8532,6 @@ tabank,tab,Tabank
 tabbypos,epos,TabbyPOS
 taboo-token,taboo,Taboo
 tabtrader,ttt,TabTrader
-tacos,taco,Tacos
 tagcoin,tag,Tagcoin
 tag-protocol,tag,Tag Protocol
 tahu,tahu,TAHU
@@ -8653,6 +8539,7 @@ tai,tai,tBridge
 taikula-coin,taikula,Taikula Coin
 tail,tail,Tail
 tail-finance,tail,Tail Finance
+tai-money,tai,TAI
 tairyo-inu,tairyo,Tairyo Inu
 tajcoin,taj,TajCoin
 takamaka-green-coin,tkg,Takamaka
@@ -8671,7 +8558,6 @@ tamadoge,tama,Tamadoge
 tama-finance,tama,Tama Finance
 tangent,tang,Tangent
 tangible,tngbl,Tangible
-tangle,tngl,Tangle
 tangoswap,tango,TangoSwap
 tank-battle,tbl,Tank Battle
 tank-gold,tgold,Tank Gold
@@ -8697,13 +8583,11 @@ tcg-verse,tcgc,TCG Verse
 tdoge,tdoge,τDoge
 team-heretics-fan-token,th,Team Heretics Fan Token
 team-vitality-fan-token,vit,Team Vitality Fan Token
-teaswap-art,tsa,Teaswap Art
 techpay,tpc,Techpay
 tecracoin,tcr,TecraCoin ERC20
 tectonic,tonic,Tectonic
 tectum,tet,Tectum
 ted-bnb,ted,TED BNB
-teddy-dog,tdg,Teddy Dog
 teddy-doge,teddy,Teddy Doge
 teddy-doge-v2,teddy v2,Teddy Doge V2
 teddy-dollar,tsd,Teddy Dollar
@@ -8778,7 +8662,6 @@ thales,thales,Thales
 the-4th-pillar,four,4thpillar technologies
 the9,the9,THE9
 the-abyss,abyss,Abyss
-the-amaze-world,amze,The Amaze World
 the-ape-society,society,The Ape Society
 the-apis,api,The APIS
 the-bet,bet,The Bet
@@ -8797,7 +8680,6 @@ the-employment-commons-work-token,work,The Employment Commons Work
 the-ennead,neadram,The Ennead
 the-essential-coin,esc,The Essential Coin
 the-everlasting-parachain,elp,The Everlasting Parachain
-the-fire-token,xfr,The Fire
 theflashcurrency,tfc,TheFlashCurrency
 the-forbidden-forest,forestplus,The Forbidden Forest
 theforce-trade,foc,TheForce Trade
@@ -8814,6 +8696,7 @@ the-midas-touch-gold,tmtg,The Midas Touch Gold
 the-monopolist,mono,The Monopolist
 thena,the,Thena
 the-neko,neko,The Neko
+the-nemesis,nems,The Nemesis
 the-next-world-coin,tnc,The Next World Coin
 the-node,the,THENODE
 the-open-network,ton,Toncoin
@@ -8826,6 +8709,7 @@ thepepe-ai,ppai,ThePepe.AI
 the-phoenix,fire,The Phoenix
 the-plant-dao,sprout,The Plant Dao
 the-protocol,the,The Protocol
+the-qwan,qwan,The QWAN
 the-randomdao,rnd,The RandomDAO
 the-reaper,rpr,The Reaper
 the-reaper-coin,reaper,The Reaper Coin
@@ -8841,9 +8725,10 @@ thetan-coin,thc,Thetan Coin
 theta-token,theta,Theta Network
 the-three-kingdoms,ttk,The Three Kingdoms
 the-tokenized-bitcoin,imbtc,The Tokenized Bitcoin
+the-unfettered-souls,souls,The Unfettered Souls
 the-virtua-kolect,tvk,The Virtua Kolect
 the-wasted-lands,wal,The Wasted Lands
-the-winkyverse,wnk,The Winkyverse
+the-winkyverse,wnk,Winkies
 the-world-state,w$c,World$tateCoin
 the-xenobots-project,xeno,The Xenobots Project
 the-youth-pay,typ,The Youth Pay
@@ -8896,12 +8781,10 @@ tiraverse,tvrs,TiraVerse
 titan-coin,ttn,Titan Coin
 titan-hunters,tita,Titan Hunters
 titanswap,titan,TitanSwap
-titi-financial,titi,Titi Financial
 titi-governance-token,titi,TiTi Governance Token
 titi-protocol,titi,TiTi Protocol
 title-network,tnet,Bitcoin Clashic
 titter,titr,Titter
-tlabs,tbs,TLabs
 tlpt,tlpt,tLPT
 t-mac-dao,tmg,T-mac DAO
 tnc-coin,tnc,TNC Coin
@@ -8976,6 +8859,7 @@ totoro-inu,totoro,Totoro Inu
 toucan-protocol-base-carbon-tonne,bct,Toucan Protocol: Base Carbon Tonne
 toucan-protocol-nature-carbon-tonne,nct,Toucan Protocol: Nature Carbon Tonne
 touchcon,toc,TouchCon
+tourism-industry-metavers,tim,Tourism Industry Metavers
 tourismx,trmx,TourismX
 tourist-shiba-inu,tourists,Tourist Shiba Inu
 tower,tower,Tower
@@ -9008,7 +8892,6 @@ tranquil-staked-one,stone,Tranquil Staked ONE
 transcodium,tns,Transcodium
 transhuman-coin,thc,Transhuman Coin
 trava-finance,trava,Trava Finance
-travel-care-2,travel,Travel Care
 traxx,traxx,Traxx
 trazable,trz,Trazable
 treasure-under-sea,tus,Treasure Under Sea
@@ -9059,7 +8942,6 @@ trubadger,trubgr,TruBadger
 truebit-protocol,tru,Truebit Protocol
 true-chain,true,TrueChain
 truecnh,tcnh,TrueCNH
-truedeck,tdp,TrueDeck
 truefeedbackchain,tfbx,Truefeedback
 truefi,tru,TrueFi
 truefreeze,frz,TrueFreeze
@@ -9070,7 +8952,6 @@ trumpceo,trumpceo,TrumpCEO
 trumpcoin-709b1637-4ceb-4e9e-878d-2b137bee017d,dtc,TrumpCoin
 trustbase,tbe,TrustBase
 trustbit-finance,trs,TrustBit Finance
-trusted-node,tnode,Trusted Node
 trustfi-network-token,tfi,TrustFi Network
 trustnft,trustnft,TrustNFT
 trustpad,tpad,TrustPad
@@ -9084,7 +8965,6 @@ truth-seekers,truth,Truth Seekers
 trx3l,trx3l,TRX3L
 tryc,tryc,TRYC
 tryhards,try,TryHards
-tryvium-2,tryv,Tryvium
 tsilver,txag,tSILVER
 tsuki-inu,tkinu,Tsuki Inu
 tsuki-no-usagi,gyokuto,Tsuki no usagi
@@ -9123,7 +9003,6 @@ txa,txa,TXA
 txbit,txbit,Txbit
 tycoon,tyc,Tycoon
 typerium,type,Typerium
-tyv,tyv,TYV
 tzbtc,tzbtc,tzBTC
 ubeswap,ube,Ubeswap
 ubiq,ubq,Ubiq
@@ -9401,7 +9280,6 @@ venus-usdt,vusdt,Venus USDT
 venus-xrp,vxrp,Venus XRP
 venus-xvs,vxvs,Venus XVS
 vera,vera,Vera
-vera-exchange,vera,VERA Exchange
 veraone,vro,VeraOne
 verasity,vra,Verasity
 verge,xvg,Verge
@@ -9426,6 +9304,7 @@ vesper-finance,vsp,Vesper Finance
 vesta-finance,vsta,Vesta Finance
 vesta-stable,vst,Vesta Stable
 vestige,vest,Vestige
+vesync,vs,veSync
 vethor-token,vtho,VeThor
 vetme,vetme,VetMe
 vetter-token,vetter,Vetter
@@ -9470,8 +9349,9 @@ virtual-ride-token,vrt,Virtual Ride Token
 virtual-tourist,vt,Virtual Tourist
 virtual-trader,vtr,Virtual Trader
 virtual-trade-token,vtt,Virtual Trade Token
-virtue,virtue,Virtue
 virtue-poker,vpp,Virtue Poker Points
+virtuswap,vrsw,VirtuSwap
+vision-city,viz,Vision City
 visiongame,vision,VisionGame
 vision-metaverse,vs,Vision Metaverse
 vitadao,vita,VitaDAO
@@ -9527,12 +9407,10 @@ vrmars,vrm,VRMARS
 vsolidus,vsol,VSolidus
 v-systems,vsys,V.SYSTEMS
 vulcan-forged,pyr,Vulcan Forged
-vulkania-2,vlk,Vulkania
+vulture-peak,vpk,Vulture Peak
 vvs-finance,vvs,VVS Finance
 vxdefi,vxdefi,vXDEFI
-vxxl,vxxl,VXXL
 vyfinance,vyfi,VyFinance
-vynk-chain,vync,VYNK Chain
 wabi,wabi,Wabi
 wadzpay-token,wtk,WadzPay
 wagerr,wgr,Wagerr
@@ -9545,8 +9423,8 @@ wagmi-token,wag,WAGMI Token
 wagyuswap,wag,WagyuSwap
 waifer,waif,Waifer
 waifu,waifu,Waifu
+waifuai,wfai,WaifuAI
 waifu-token,waif,Waifu Genesis Card Collection
-wait,wait,WAIT
 wakanda-inu,wkd,Wakanda Inu
 walken,wlkn,Walken
 wallax,wlx,Wallax
@@ -9554,7 +9432,6 @@ wallet-defi,wdf,Wallet Defi
 walletnow,wnow,WalletNow
 wallet-safu,wsafu,Wallet SAFU
 wallet-swap,wswap,Wallet Swap
-wallfair,wfair,Wallfair
 wall-street-baby,wsb,Wall Street Baby
 wall-street-bets-dapp,wsb,WallStreetBets DApp
 wall-street-games,wsg,Wall Street Games
@@ -9580,7 +9457,6 @@ warp-cash,warp,Warp Cash
 warp-finance,warp,Warp Finance
 warrior-empires,chaos,Warrior Empires
 warrior-rare-essentials,ware,Warrior Rare Essentials
-wasabix,wasabi,WasabiX
 wasdaq-finance,wsdq,Wasdaq Finance
 wasder,was,Wasder
 wassie,wassie,WASSIE
@@ -9649,10 +9525,8 @@ weyu,weyu,WEYU
 wfdp,wfdp,WFDP
 wgmi,wgmi,WGMI
 whale,whale,WHALE
-whale-maker-fund,wmf,Whale Maker Fund
 whaleroom,whl,WhaleRoom
 wheat,wheat,Wheat
-wheat-token,wheat,Wheat (BSC)
 whee,whee,WHEE
 whey-token,whey,Shredded Apes Whey
 whisper,wisp,Whisper
@@ -9688,6 +9562,8 @@ wipemyass,wipe,WipeMyAss
 wirex,wxt,WXT Token
 wirtual,wirtual,Wirtual
 wise-token11,wise,Wise
+wispswap,wisp,WispSwap
+wistaverse,wista,Wistaverse
 witch-token,witch,Witch Token
 witnet,wit,Witnet
 wizardia,wzrd,Wizardia
@@ -9701,7 +9577,6 @@ wliti,wliti,wLITI
 wlitidao,wld,wLitiDAO
 wmatic,wmatic,Wrapped Matic
 wmatic-plenty-bridge,wmatic.p,WMATIC (Plenty Bridge)
-wohlstand-token,wt,Wohlstand
 wojak,wojak,Wojak
 wojak-finance,woj,Wojak Finance
 wolfcoin,wolf,WOLFCOIN
@@ -9709,7 +9584,6 @@ wolf-game-wool,wool,Wolf Game Wool
 wolf-pups-2,wolfies,WOLF PUPS
 wolfsafepoorpeople,wspp,WolfSafePoorPeople
 wolfsafepoorpeople-polygon,wspp,WolfSafePoorPeople Polygon
-wolf-town-wool,wtwool,Wolf Town Wool
 wolf-ventures,$wv,Wolf Ventures
 wolfy,wolfy,WOLFY
 wolv,wolv,WOLV
@@ -9717,6 +9591,7 @@ wolverinu-2,wolverinu,Wolverinu
 wombat,wombat,Wombat
 wombat-exchange,wom,Wombat Exchange
 wombex,wmx,Wombex
+wombex-wom,wmxwom,Wombex WOM
 wom-token,wom,WOM Protocol
 wonderhero,wnd,WonderHero [OLD]
 wonderland,time,Wonderland TIME
@@ -9749,7 +9624,6 @@ wrapped-accumulate,wacme,Wrapped Accumulate
 wrapped-ada,wada,Wrapped ADA
 wrapped-algo,xalgo,Wrapped ALGO
 wrapped-ampleforth,wampl,Wrapped Ampleforth
-wrapped-anatha,wanatha,Wrapped ANATHA
 wrappedarc,warc,WrappedARC
 wrapped-astar,wastr,Wrapped Astar
 wrapped-avax,wavax,Wrapped AVAX
@@ -9841,7 +9715,6 @@ wrapped-velas,wvlx,Wrapped Velas
 wrapped-virgin-gen-0-cryptokitties,wvg0,Wrapped Virgin Gen-0 CryptoKittties
 wrapped-wan,wwan,Wrapped Wan
 wrapped-wdoge,wwdoge,Wrapped WDOGE
-wrapped-xbtc,wxbtc,Wrapped xBTC
 wrapped-xdai,wxdai,Wrapped XDAI
 wrapped-xdc,wxdc,Wrapped XDC
 wrapped-xrp,wxrp,Wrapped XRP
@@ -9897,10 +9770,12 @@ xdeus,xdeus,xDEUS
 xdoge,xdoge,Xdoge
 xdollar-stablecoin,xusd,xDollar Stablecoin
 xels,xels,XELS
+xenbitcoin,xbtc,XenBitcoin
 xen-crypto,xen,XEN Crypto
 xen-crypto-bsc,bxen,XEN Crypto (BSC)
 xen-crypto-evmos,coxen,Xen Crypto (EVMOS)
 xen-crypto-matic,mxen,Xen Crypto (MATIC)
+xen-crypto-pulsechain,pxen,XEN Crypto (PulseChain)
 xend-finance,xend,Xend Finance
 xenios,xnc,Xenios
 xenlon-mars,xlon,Xenlon Mars
@@ -9911,6 +9786,7 @@ xfarmer,xf,xFarmer
 xfinance,xfi,Xfinance
 xfinite-entertainment-token,xet,Xfinite Entertainment
 xfit,xfit,XFai
+xfl-token,xfl,XFL
 xfuel,xfuel,XFUEL
 xfund,xfund,xFUND
 xgold-coin,xgold,Xgold Coin
@@ -9939,7 +9815,6 @@ xpansion-game,xps,Xpansion Game
 xpendium,xpnd,Xpendium
 xpla,xpla,XPLA
 xp-network,xpnet,XP Network
-xproject,xpro,XPROJECT
 x-protocol,pot,X Protocol
 xptp,xptp,xPTP
 xrdoge,xrdoge,XRdoge
@@ -9964,7 +9839,6 @@ xstudio,txs,XStudio
 xsushi,xsushi,xSUSHI
 xswap-protocol,xsp,XSwap Protocol
 xswap-treasure,xtt,XSwap Treasure
-xtal,xtal,XTAL
 xtblock-token,xtt-b20,XTblock
 xtcom-token,xt,XT.com
 xtoken,xtk,xToken
@@ -9991,7 +9865,6 @@ yamanote-sen,ymnt,Yamanote-Sen
 yamp-finance,yamp,Yamp Finance
 yasha-dao,yasha,YASHA
 yawww,yaw,Yawww
-yaxis,yaxis,yAxis
 yay-games,yay,YAY Network
 ycash,yec,Ycash
 yclub,syc,YCLUB
@@ -10048,7 +9921,6 @@ yooshi,yooshi,YooShi
 yoshi-exchange,yoshi,Yoshi.exchange
 youcash,youc,YOUcash
 youclout,yct,Youclout
-youminter,umint,YouMinter
 young-boys-fan-token,ybo,Young Boys Fan Token
 youngparrot,ypc,YoungParrot
 yourkiss,yks,YourKiss
@@ -10059,7 +9931,6 @@ youves-uusd,uusd,Youves uUSD
 youves-you-governance,you,Youves YOU Governance
 youwho,you,Youwho
 ysl,ysl,YSL
-ytofu,ytofu,yTOFU
 yuan-chain-coin,ycc,Yuan Chain Coin
 yukky,yukky,YUKKY
 yummi-universe,yummi,Yummi Universe
@@ -10068,7 +9939,6 @@ yuna,yuna,Yuna
 yup,yup,Yup
 yusd-stablecoin,yusd,YUSD Stablecoin
 yuse,yuse,Yuse
-yvault-lp-ycurve,yvault-lp-ycurve,yUSD
 yvboost,yvboost,Yearn Compounding veCRV yVault
 yvdai,yvdai,yvDAI
 yvs-finance,yvs,YVS Finance
@@ -10085,7 +9955,6 @@ zap,zap,Zap
 zasset-zusd,zusd,Zasset zUSD
 zatcoin-2,zpro,ZAT Project
 zbit-ordinals,zbit,ZBIT (Ordinals)
-zb-token,zb,ZB
 zcash,zec,Zcash
 zclassic,zcl,Zclassic
 zcoin,firo,Firo
@@ -10178,6 +10047,7 @@ zkproof,zkp,zkProof
 zkshib,zkshib,zkShib
 zkspace,zks,ZKSpace
 zksvm,zksvm,zkSVM
+zkswap-92fc4897-ea4c-4692-afc9-a9840a85b4f2,zksp,zkSwap
 zksync-id,zkid,zkSync id
 zktsunami,:zkt:,ZkTsunami
 zmine,zmn,ZMINE
@@ -10201,7 +10071,6 @@ zoracles,zora,Zoracles
 zrcoin,zrc,ZrCoin
 zro,zro,Carb0n.fi
 zsol,zsol,zSOL
-zudgezury,zzc,ZudgeZury
 zuki-moba,zuki,Zuki Moba
 zum-token,zum,ZUM
 zuna,zuna,Zuna
