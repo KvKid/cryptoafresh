@@ -9,16 +9,57 @@ import SECRETS
 import urllib
 import requests
 from urllib.parse import quote
+import time 
+import numpy as np
+from selenium.common.exceptions import StaleElementReferenceException
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 
 class cryptoafresh():
 
     def __init__(self) -> None:
         self.driver = None
+        self.driver_on = False
         pass
 
+    def get_wiki_link_of_cg_from_golden_sel(self,coingecko_name):
+        # Open the webpage
+        url = 'https://golden.com/search/' +quote(coingecko_name )
+        for _ in range(10):
+            try:
+                self.driver.get(url)
+                # Get all the hyperlinks on the page
+                all_links = self.driver.find_elements(By.TAG_NAME,'a')
+                break
+            except StaleElementReferenceException:
+                continue
+
+        # Loop through each hyperlink and print their href attribute
+        #Scan for all hyperlinks
+        hyperlinks = [link.get_attribute('href') for link in all_links]
+        #If a hyper link contains the name then we can conclude that the coin name initially from coin gecko is in the Golden Database
+        for link in hyperlinks:
+            if link == None:
+                continue
+            contains_wiki = False
+            if 'wiki/' not in link:
+                continue
+            contains = True
+
+            for word in [elem.lower() for elem in coingecko_name.split()]:
+                if word not in link.lower():
+                    contains = False
+                    break
+
+            if contains == True:
+                # wiki_url = 'https://golden.com'+link + '/structured_data'
+                wiki_url = link + '/structured_data'
+                return wiki_url
+        return None
 
     def get_wiki_link_of_cg_from_golden(self,coingecko_name):
         url = 'https://golden.com/search/' +quote(coingecko_name )
+        print(url)
         response = requests.get(url)
         if response.status_code != 200:
             print("Connection Unsuccessful")
@@ -31,7 +72,6 @@ class cryptoafresh():
 
         #Scan for all hyperlinks
         hyperlinks = [link.get('href') for link in all_links]
-
         #If a hyper link contains the name then we can conclude that the coin name initially from coin gecko is in the Golden Database
         for link in hyperlinks:
             contains = False
@@ -48,7 +88,61 @@ class cryptoafresh():
                 wiki_url = 'https://golden.com'+link + '/structured_data'
                 return wiki_url
         return None
-    
+
+    def golden_whitepapers_urls_sel(self, cg_name):
+        golden_wiki_structured_data_url = self.get_wiki_link_of_cg_from_golden_sel(cg_name)
+        if golden_wiki_structured_data_url == None:
+            return (["No wiki_link"],[])
+        # Make a GET request to the webpage using Selenium
+        for _ in range(5):
+            try:
+                self.driver.get(golden_wiki_structured_data_url)
+                # Find the unnested div containing the word 'Whitepaper'
+                div_with_whitepaper = self.driver.find_elements(By.XPATH,"//div[contains(text(), 'Whitepaper') and not(descendant::div)]")
+                break
+            except StaleElementReferenceException:
+                continue
+                
+        # print("div_whit: ",div_with_whitepaper)
+        if div_with_whitepaper == [] or div_with_whitepaper == None:
+            # print('No links to whitepaper')
+            whitepaper_links = []
+        else:
+            # Find the next div
+            next_div = div_with_whitepaper[0].find_element(By.XPATH, "./following-sibling::div")
+
+            # Find all 'a' tags within this div
+            a_tags = next_div.find_elements(By.TAG_NAME,'a')
+
+            # Get the links
+            whitepaper_links = [a_tag.get_attribute('href') for a_tag in a_tags]
+
+            # Print the links
+            # print('whitepaper_links: \n', whitepaper_links)
+
+
+
+        # Find the unnested div containing the word 'Official Website'
+        div_with_off_website = self.driver.find_elements(By.XPATH,"//div[contains(text(), 'Official Website') and not(descendant::div)]")
+        if div_with_off_website == None or div_with_off_website == []:
+            # print('No official website tag')
+            website_links = []
+        else:
+            # Find the next div
+            next_div = div_with_off_website[0].find_element(By.XPATH,"./following-sibling::div")
+            # print(next_div)
+            # Find all 'a' tags within this div
+            a_tags = next_div.find_elements(By.TAG_NAME,'a')
+
+            # Get the links
+            website_links = [a_tag.get_attribute('href') for a_tag in a_tags]
+
+            # Print the links
+            # print('website_links: \n', website_links)
+
+        # Close the browser
+        return (whitepaper_links, website_links)
+
 
     def golden_whitepapers_urls(self,golden_wiki_structured_data_url):
         # make a GET request to the webpage
@@ -110,14 +204,11 @@ class cryptoafresh():
         self.driver = None
         print("Closed webdriver.")
 
-    def coingecko_whitepapers_urls(self,coingecko_url):
-        if self.driver == None:
-            print("Initialising the web driver...")
-            self.initialise_webdriver()
-
+    def coingecko_whitepapers_urls(self,coingecko_url,beg = False):
         self.driver.get(coingecko_url)
+        if beg == True:
+            time.sleep(5 + np.random.uniform(0,2))
         div_with_website = self.driver.find_element(By.XPATH,"//span[contains(text(), 'Website')]/ancestor::div[1]")
-
         whitepaper_links = []
         website_links = []
         html_text = div_with_website.get_attribute('innerHTML')
@@ -129,13 +220,6 @@ class cryptoafresh():
                     whitepaper_links.append(tag.get_attribute("href"))
                 else:
                     website_links.append(tag.get_attribute("href"))
-            # Print the HTML text
-        else:
-            print("Doesn't contain a link")
-
-        print("Whitepapers: ", whitepaper_links)
-        print("Websites: ", website_links)
-        
         return(whitepaper_links,website_links)
     
 
@@ -201,10 +285,7 @@ class cryptoafresh():
         #     print("Connection unsuccessful")
         #     return(None)
     def googlepdfsearch_sel(self,name):
-        if self.driver== None:
-            self.initialise_webdriver()
-            print("Initialising webdriver")
-        
+
         url ='https://www.google.co.uk/search?q='+quote(name)+'+whitepaper+filetype%3Apdf'
         self.driver.get(url)
         links = self.driver.find_elements(By.XPATH,'//a[@href]')
@@ -243,13 +324,13 @@ class cryptoafresh():
             else:
                 continue
     
-    def getpdffromurl(self,pdfurl):
+    def getpdffromurl(self,pdfurl,filename):
         response = requests.get(pdfurl)
         if response.status_code != 200:
             print("Connection Unsuccesful")
             return
-        filename = pdfurl.split('/')[-1]  # Extract the filename from the URL
-        with open(filename, 'wb') as file:
+        # filename = pdfurl.split('/')[-1]  # Extract the filename from the URL
+        with open('./PDFS/'+filename+".pdf", 'wb') as file:
             file.write(response.content)
         print(f'Successfully downloaded: {filename}')
 
